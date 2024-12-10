@@ -1,0 +1,809 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Page_Loyalitas">
+
+    <!-- Root LinearLayout -->
+    <LinearLayout
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- LinearLayout for content -->
+        <LinearLayout
+            android:id="@+id/ru7g1pgzzzka"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#DEF9C4"
+            android:paddingTop="36dp">
+
+            <!-- Main LinearLayout inside ScrollView -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <!-- Header Section -->
+                <LinearLayout
+                    android:id="@+id/rl4ocf94j1ao"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginHorizontal="30dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/rtsalamhn2ef"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginEnd="94dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/arrow" />
+
+                    <TextView
+                        android:id="@+id/rim5l6p8jfvb"
+                        android:textColor="#468585"
+                        android:textSize="24sp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Loyalitas" />
+
+                    <LinearLayout
+                        android:id="@+id/rmpvmby429dt"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/rtsalamhn92ef"
+                        android:layout_width="26dp"
+                        android:layout_height="26dp"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginEnd="1dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/menu" />
+
+                </LinearLayout>
+
+                <!-- Coin Collection and Purchase History -->
+                <LinearLayout
+                    android:id="@+id/rp7qj11mz7g"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/cr10b468585"
+                    android:paddingTop="13dp"
+                    android:paddingBottom="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginHorizontal="20dp"
+                    android:orientation="vertical">
+
+                    <!-- Coin History -->
+                    <LinearLayout
+                        android:id="@+id/rpkeh7w7xv4k"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginHorizontal="12dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:id="@+id/r2lu18l23c35"
+                            android:layout_width="87dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:background="@drawable/cr5bffffff"
+                            android:paddingHorizontal="4dp"
+                            android:elevation="4dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/ranxak6m2yok"
+                                android:layout_width="18dp"
+                                android:layout_height="19dp"
+                                android:layout_marginEnd="5dp"
+                                android:src="@drawable/coin"
+                                android:scaleType="fitXY" />
+
+                            <TextView
+                                android:inputType="text"
+                                android:text="1200"
+                                android:id="@+id/rwn6tfj5nika"
+                                android:textColor="#468585"
+                                android:textSize="16sp"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:paddingVertical="5dp" />
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_weight="1" />
+
+                        <LinearLayout
+                            android:id="@+id/rp6kvowv31m"
+                            android:layout_width="73dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:background="@drawable/cr5bffffff"
+                            android:paddingVertical="10dp"
+                            android:elevation="4dp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/r77xrc2ib4y8"
+                                android:textColor="#468585"
+                                android:textSize="13sp"
+                                android:layout_height="wrap_content"
+                                android:layout_width="wrap_content"
+                                android:text="Riwayat" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <!-- Purchase Coin Addition -->
+                    <LinearLayout
+                        android:id="@+id/r9w7wb3tnwt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cr10bffffff"
+                        android:paddingVertical="10dp"
+                        android:paddingLeft="18dp"
+                        android:paddingRight="18dp"
+                        android:layout_marginHorizontal="10dp"
+                        android:orientation="vertical">
+
+                        <!-- Purchase Coins -->
+                        <LinearLayout
+                            android:id="@+id/rpgvt7g5q11"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:layout_marginBottom="10dp"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:id="@+id/rdsx7300bazi"
+                                android:layout_width="46dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/s000000sw1cr10bffffff"
+                                android:paddingVertical="4dp"
+                                android:paddingHorizontal="4dp"
+                                android:elevation="4dp"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/rw74b9tf0yj7"
+                                    android:layout_width="35dp"
+                                    android:layout_height="35dp"
+                                    android:layout_marginBottom="7dp"
+                                    android:src="@drawable/coin"
+                                    android:scaleType="fitXY" />
+
+                                <TextView
+                                    android:id="@+id/r3etc8cvyel5"
+                                    android:textColor="#468585"
+                                    android:textSize="14sp"
+                                    android:layout_marginHorizontal="8dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="match_parent"
+                                    android:layout_weight="1"
+                                    android:text="+ 5" />
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="0dp"
+                                android:layout_height="0dp"
+                                android:layout_weight="1" />
+
+                            <LinearLayout
+                                android:id="@+id/rdsxe7300bazi"
+                                android:layout_width="46dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/s000000sw1cr10bffffff"
+                                android:paddingVertical="4dp"
+                                android:paddingHorizontal="4dp"
+                                android:elevation="4dp"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/rw74b9f4t50yj7"
+                                    android:layout_width="35dp"
+                                    android:layout_height="35dp"
+                                    android:layout_marginBottom="7dp"
+                                    android:src="@drawable/coin"
+                                    android:scaleType="fitXY" />
+
+                                <TextView
+                                    android:id="@+id/r3etc8cdvyel5"
+                                    android:textColor="#468585"
+                                    android:textSize="14sp"
+                                    android:layout_marginHorizontal="4dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="match_parent"
+                                    android:layout_weight="1"
+                                    android:text="+ 10" />
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="0dp"
+                                android:layout_height="0dp"
+                                android:layout_weight="1" />
+
+                            <LinearLayout
+                                android:id="@+id/rdsxe73f00bazi"
+                                android:layout_width="46dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/s000000sw1cr10bffffff"
+                                android:paddingVertical="4dp"
+                                android:paddingHorizontal="4dp"
+                                android:elevation="4dp"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/rw74dbe9f0yj7"
+                                    android:layout_width="35dp"
+                                    android:layout_height="35dp"
+                                    android:layout_marginBottom="7dp"
+                                    android:src="@drawable/coin"
+                                    android:scaleType="fitXY" />
+
+                                <TextView
+                                    android:id="@+id/r3etcf8cdvyel5"
+                                    android:textColor="#468585"
+                                    android:textSize="14sp"
+                                    android:layout_marginHorizontal="4dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="match_parent"
+                                    android:layout_weight="1"
+                                    android:text="+ 15" />
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="0dp"
+                                android:layout_height="0dp"
+                                android:layout_weight="1" />
+
+                            <LinearLayout
+                                android:id="@+id/rdsxe7r3f00bazi"
+                                android:layout_width="46dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/s000000sw1cr10bffffff"
+                                android:paddingVertical="4dp"
+                                android:paddingHorizontal="4dp"
+                                android:elevation="4dp"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/rw74tdbe9f0yj7"
+                                    android:layout_width="35dp"
+                                    android:layout_height="35dp"
+                                    android:layout_marginBottom="7dp"
+                                    android:src="@drawable/coin"
+                                    android:scaleType="fitXY" />
+
+                                <TextView
+                                    android:id="@+id/r3etc4f8cdvyel5"
+                                    android:textColor="#468585"
+                                    android:textSize="14sp"
+                                    android:layout_marginHorizontal="4dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="match_parent"
+                                    android:layout_weight="1"
+                                    android:text="+ 20" />
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="0dp"
+                                android:layout_height="0dp"
+                                android:layout_weight="1" />
+
+                            <LinearLayout
+                                android:id="@+id/rdsxe73df00bazi"
+                                android:layout_width="46dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/s000000sw1cr10bffffff"
+                                android:paddingVertical="4dp"
+                                android:paddingHorizontal="4dp"
+                                android:elevation="4dp"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/rw74ddbe9f0yj7"
+                                    android:layout_width="35dp"
+                                    android:layout_height="35dp"
+                                    android:layout_marginBottom="7dp"
+                                    android:src="@drawable/coin"
+                                    android:scaleType="fitXY" />
+
+                                <TextView
+                                    android:id="@+id/r3etcf8cdvgyel5"
+                                    android:textColor="#468585"
+                                    android:textSize="14sp"
+                                    android:layout_marginHorizontal="4dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="match_parent"
+                                    android:layout_weight="1"
+                                    android:text="+ 25" />
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="0dp"
+                                android:layout_height="0dp"
+                                android:layout_weight="1" />
+
+                            <LinearLayout
+                                android:id="@+id/rdsdxe73f00bazi"
+                                android:layout_width="46dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/s000000sw1cr10bffffff"
+                                android:paddingVertical="4dp"
+                                android:paddingHorizontal="4dp"
+                                android:elevation="4dp"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/rw74dbfe9f0yj7"
+                                    android:layout_width="35dp"
+                                    android:layout_height="35dp"
+                                    android:layout_marginBottom="7dp"
+                                    android:src="@drawable/coin"
+                                    android:scaleType="fitXY" />
+
+                                <TextView
+                                    android:id="@+id/r3etcf8cdvvyel5"
+                                    android:textColor="#468585"
+                                    android:textSize="14sp"
+                                    android:layout_marginHorizontal="4dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="match_parent"
+                                    android:layout_weight="1"
+                                    android:text="+ 30" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <!-- Buttom Claim Coins -->
+                        <LinearLayout
+                            android:id="@+id/r699m0hqgs15"
+                            android:layout_width="286dp"
+                            android:layout_height="36dp"
+                            android:gravity="center_horizontal"
+                            android:background="@drawable/cr5b468585"
+                            android:paddingVertical="10dp"
+                            android:layout_marginBottom="9dp"
+                            android:elevation="4dp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/r2yqfwudpiaky"
+                                android:textColor="#FFFFFF"
+                                android:textSize="15sp"
+                                android:layout_height="wrap_content"
+                                android:layout_width="wrap_content"
+                                android:text="Claim Koin" />
+
+                        </LinearLayout>
+
+                        <!-- Buttom Exchange Coins -->
+                        <LinearLayout
+                            android:id="@+id/r699m0dhqgs15"
+                            android:layout_width="286dp"
+                            android:layout_height="36dp"
+                            android:gravity="center_horizontal"
+                            android:background="@drawable/cr5b468585"
+                            android:paddingVertical="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:elevation="4dp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/r2yqwudpiaky"
+                                android:textColor="#FFFFFF"
+                                android:textSize="15sp"
+                                android:layout_height="wrap_content"
+                                android:layout_width="wrap_content"
+                                android:text="Tukarkan Koin" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <!-- Shopping Voucher -->
+                <TextView
+                    android:id="@+id/rw7thdd94st8"
+                    android:textColor="#468585"
+                    android:textSize="24sp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginHorizontal="105dp"
+                    android:layout_height="32dp"
+                    android:layout_width="match_parent"
+                    android:text="Voucher Belanja" />
+
+                <ScrollView
+                    android:id="@+id/r4bonh3bn2vp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="#DEF9C4"
+                    android:paddingTop="6dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <!-- Promo Banner 1 -->
+                        <RelativeLayout
+                            android:id="@+id/r253bnrniw2n9t_rl"
+                            android:layout_width="match_parent"
+                            android:layout_height="130dp"
+                            android:layout_marginBottom="12dp"
+                            android:layout_marginHorizontal="36dp">
+
+                            <com.google.android.material.imageview.ShapeableImageView
+                                android:id="@+id/r253bernrnin9t"
+                                android:layout_width="match_parent"
+                                android:layout_height="160dp"
+                                android:src="@drawable/tanaman_hias_2"
+                                android:scaleType="fitXY"
+                                app:shapeAppearanceOverlay="@style/cr10" />
+
+                            <LinearLayout
+                                android:paddingVertical="13dp"
+                                android:paddingHorizontal="15dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/r53adda6hgj2wh"
+                                    android:textColor="#468585"
+                                    android:textSize="20sp"
+                                    android:layout_marginBottom="1dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="wrap_content"
+                                    android:text="Spesial Diskon " />
+
+                                <TextView
+                                    android:id="@+id/re816cl0o63rt"
+                                    android:textColor="#468585"
+                                    android:textSize="@dimen/fontsize_headline_large"
+                                    android:layout_marginBottom="1.5dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="wrap_content"
+                                    android:text="Gratis Ongkir" />
+
+                                <LinearLayout
+                                    android:id="@+id/r3ulg7dlgv40j"
+                                    android:layout_width="116dp"
+                                    android:layout_height="30dp"
+                                    android:gravity="center_horizontal"
+                                    android:background="@drawable/cr5bffffff"
+                                    android:paddingVertical="9dp">
+
+                                    <TextView
+                                        android:id="@+id/rza8gx42oqjd"
+                                        android:textColor="#50B498"
+                                        android:textSize="10sp"
+                                        android:layout_height="12dp"
+                                        android:layout_width="wrap_content"
+                                        android:text="Activate Offer" />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </RelativeLayout>
+
+                        <!-- Promo Banner 2 -->
+                        <RelativeLayout
+                            android:id="@+id/r253bsnrnin9t_rl"
+                            android:layout_width="match_parent"
+                            android:layout_height="130dp"
+                            android:layout_marginBottom="12dp"
+                            android:layout_marginHorizontal="36dp">
+
+                            <com.google.android.material.imageview.ShapeableImageView
+                                android:id="@+id/r253bnrdnin9t"
+                                android:layout_width="match_parent"
+                                android:layout_height="160dp"
+                                android:src="@drawable/tanaman_hias_1"
+                                android:scaleType="fitXY"
+                                app:shapeAppearanceOverlay="@style/cr10" />
+
+                            <LinearLayout
+                                android:paddingVertical="13dp"
+                                android:paddingHorizontal="15dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/r53aad6hgj2wh"
+                                    android:textColor="#468585"
+                                    android:textSize="20sp"
+                                    android:layout_marginBottom="1dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="wrap_content"
+                                    android:text="Spesial Diskon " />
+
+                                <TextView
+                                    android:id="@+id/re816l0w23o63rt"
+                                    android:textColor="#468585"
+                                    android:textSize="@dimen/fontsize_headline_large"
+                                    android:layout_marginBottom="1.5dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="wrap_content"
+                                    android:text="98%" />
+
+                                <LinearLayout
+                                    android:id="@+id/r3ulgs7lgv40j"
+                                    android:layout_width="116dp"
+                                    android:layout_height="30dp"
+                                    android:gravity="center_horizontal"
+                                    android:background="@drawable/cr5bffffff"
+                                    android:paddingVertical="9dp">
+
+                                    <TextView
+                                        android:id="@+id/rz8egx42oqjd"
+                                        android:textColor="#50B498"
+                                        android:textSize="10sp"
+                                        android:layout_height="12dp"
+                                        android:layout_width="wrap_content"
+                                        android:text="Activate Offer" />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </RelativeLayout>
+
+                        <!-- Promo Banner 3 -->
+                        <RelativeLayout
+                            android:id="@+id/r253brnrnin9t_rl"
+                            android:layout_width="match_parent"
+                            android:layout_height="130dp"
+                            android:layout_marginBottom="12dp"
+                            android:layout_marginHorizontal="36dp">
+
+                            <com.google.android.material.imageview.ShapeableImageView
+                                android:id="@+id/r253bnrniefn9t"
+                                android:layout_width="match_parent"
+                                android:layout_height="160dp"
+                                android:src="@drawable/tanaman_hias_3"
+                                android:scaleType="fitXY"
+                                app:shapeAppearanceOverlay="@style/cr10" />
+
+                            <LinearLayout
+                                android:paddingVertical="13dp"
+                                android:paddingHorizontal="15dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/r53aa326hgj2wh"
+                                    android:textColor="#468585"
+                                    android:textSize="20sp"
+                                    android:layout_marginBottom="1dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="wrap_content"
+                                    android:text="Spesial Diskon " />
+
+                                <TextView
+                                    android:id="@+id/re8162l0o63rt"
+                                    android:textColor="#468585"
+                                    android:textSize="@dimen/fontsize_headline_large"
+                                    android:layout_marginBottom="1.5dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="wrap_content"
+                                    android:text="60%" />
+
+                                <LinearLayout
+                                    android:id="@+id/r3ulg7l2gv40j"
+                                    android:layout_width="116dp"
+                                    android:layout_height="30dp"
+                                    android:gravity="center_horizontal"
+                                    android:background="@drawable/cr5bffffff"
+                                    android:paddingVertical="9dp">
+
+                                    <TextView
+                                        android:id="@+id/rz8gx42oqjd"
+                                        android:textColor="#50B498"
+                                        android:textSize="10sp"
+                                        android:layout_height="12dp"
+                                        android:layout_width="wrap_content"
+                                        android:text="Activate Offer" />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </RelativeLayout>
+
+                        <!-- Promo Banner 4 -->
+                        <RelativeLayout
+                            android:id="@+id/r253brnrniw2n9t_rl"
+                            android:layout_width="match_parent"
+                            android:layout_height="130dp"
+                            android:layout_marginBottom="12dp"
+                            android:layout_marginHorizontal="36dp">
+
+                            <com.google.android.material.imageview.ShapeableImageView
+                                android:id="@+id/r253fbernrnin9t"
+                                android:layout_width="match_parent"
+                                android:layout_height="160dp"
+                                android:src="@drawable/tanaman_hias_4"
+                                android:scaleType="fitXY"
+                                app:shapeAppearanceOverlay="@style/cr10" />
+
+                            <LinearLayout
+                                android:paddingVertical="13dp"
+                                android:paddingHorizontal="15dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/r53adrda6hgj2wh"
+                                    android:textColor="#468585"
+                                    android:textSize="20sp"
+                                    android:layout_marginBottom="1dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="wrap_content"
+                                    android:text="Spesial Diskon " />
+
+                                <TextView
+                                    android:id="@+id/re816cgl0o63rt"
+                                    android:textColor="#468585"
+                                    android:textSize="@dimen/fontsize_headline_large"
+                                    android:layout_marginBottom="1.5dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="wrap_content"
+                                    android:text="45%" />
+
+                                <LinearLayout
+                                    android:id="@+id/r3ulg7dtlgv40j"
+                                    android:layout_width="116dp"
+                                    android:layout_height="30dp"
+                                    android:gravity="center_horizontal"
+                                    android:background="@drawable/cr5bffffff"
+                                    android:paddingVertical="9dp">
+
+                                    <TextView
+                                        android:id="@+id/rza85gx42oqjd"
+                                        android:textColor="#50B498"
+                                        android:textSize="10sp"
+                                        android:layout_height="12dp"
+                                        android:layout_width="wrap_content"
+                                        android:text="Activate Offer" />
+
+                                </LinearLayout>
+
+                                <ImageView
+                                    android:id="@+id/rw74be9f0yj7"
+                                    android:layout_width="35dp"
+                                    android:layout_height="35dp"
+                                    android:layout_marginBottom="7dp"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/coin" />
+
+                            </LinearLayout>
+
+                        </RelativeLayout>
+
+                        <!-- Promo Banner 5 -->
+                        <RelativeLayout
+                            android:id="@+id/r2053brnrniw2n9t_rl"
+                            android:layout_width="match_parent"
+                            android:layout_height="130dp"
+                            android:layout_marginBottom="12dp"
+                            android:layout_marginHorizontal="36dp">
+
+                            <com.google.android.material.imageview.ShapeableImageView
+                                android:id="@+id/r253fbernrswnin9t"
+                                android:layout_width="match_parent"
+                                android:layout_height="160dp"
+                                android:src="@drawable/tanaman_hias_5"
+                                android:scaleType="fitXY"
+                                app:shapeAppearanceOverlay="@style/cr10" />
+
+                            <LinearLayout
+                                android:paddingVertical="13dp"
+                                android:paddingHorizontal="15dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/r53adrdsa6hgj2wh"
+                                    android:textColor="#468585"
+                                    android:textSize="20sp"
+                                    android:layout_marginBottom="1dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="wrap_content"
+                                    android:text="Spesial Diskon " />
+
+                                <TextView
+                                    android:id="@+id/re816cgl0o6e3rt"
+                                    android:textColor="#468585"
+                                    android:textSize="@dimen/fontsize_headline_large"
+                                    android:layout_marginBottom="1.5dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="wrap_content"
+                                    android:text="27%" />
+
+                                <LinearLayout
+                                    android:id="@+id/r3ulg7d3tlgv40j"
+                                    android:layout_width="116dp"
+                                    android:layout_height="30dp"
+                                    android:gravity="center_horizontal"
+                                    android:background="@drawable/cr5bffffff"
+                                    android:paddingVertical="9dp">
+
+                                    <TextView
+                                        android:id="@+id/rza85gxf42oqjd"
+                                        android:textColor="#50B498"
+                                        android:textSize="10sp"
+                                        android:layout_height="12dp"
+                                        android:layout_width="wrap_content"
+                                        android:text="Activate Offer" />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </ScrollView>
+
+                <LinearLayout
+                    android:id="@+id/rl4ocrf94j1ao"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="50dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:orientation="horizontal">
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

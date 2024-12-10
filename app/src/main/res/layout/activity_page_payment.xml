@@ -1,0 +1,1064 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Page_Payment">
+
+    <!-- Root LinearLayout -->
+    <LinearLayout
+        android:background="@color/surfaceContainerLowest"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- LinearLayout for content -->
+        <LinearLayout
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:id="@+id/r1ap8bc0igwh"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:background="#DEF9C4"
+            android:paddingTop="36dp"
+            android:paddingHorizontal="35dp">
+
+            <!-- Main LinearLayout inside ScrollView -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:orientation="vertical">
+
+                <!-- Header Section -->
+                <LinearLayout
+                    android:id="@+id/rqr9o7lshi2l"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/rtsalamhn2ef"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginEnd="93dp"
+                        android:src="@drawable/arrow"
+                        android:scaleType="fitXY" />
+
+                    <TextView
+                        android:id="@+id/rhqoh6itg62e"
+                        android:textColor="#468585"
+                        android:textSize="@dimen/fontsize_headline_small"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:layout_width="wrap_content"
+                        android:text="Payment" />
+
+                    <LinearLayout
+                        android:id="@+id/ru9ky0skjnzn"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/rtsalamhn92ef"
+                        android:layout_width="26dp"
+                        android:layout_height="26dp"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginEnd="1dp"
+                        android:src="@drawable/menu"
+                        android:scaleType="fitXY" />
+
+                </LinearLayout>
+
+                <ScrollView
+                    android:id="@+id/r4bonh3bn2vp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="#DEF9C4"
+                    android:paddingTop="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/r0zotdelj4t9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/cr5bffffff"
+                            android:paddingVertical="16dp"
+                            android:paddingHorizontal="21dp"
+                            android:layout_marginBottom="12dp"
+                            android:clipChildren="false"
+                            android:clipToPadding="false"
+                            android:orientation="vertical">
+
+                            <!-- Select Payment Method -->
+                            <LinearLayout
+                                android:id="@+id/ruferdg59tsn"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/cr5b468585"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="9dp"
+                                android:layout_marginBottom="16dp"
+                                android:clipChildren="false"
+                                android:clipToPadding="false"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/r92w7uu2xp59"
+                                    android:textColor="#FFFFFF"
+                                    android:textSize="14sp"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginHorizontal="56dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="match_parent"
+                                    android:layout_weight="1"
+                                    android:text="Pilih Metode Pembayaran"/>
+
+                                <RelativeLayout
+                                    android:id="@+id/rz0az9idivnm"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:background="@drawable/cr5bffffff"
+                                    android:layout_marginHorizontal="0dp"
+                                    android:clipChildren="false"
+                                    android:clipToPadding="false">
+
+                                </RelativeLayout>
+
+                                <!-- Digital Wallet -->
+                                <TextView
+                                    android:id="@+id/rqz2t1a4qqwg"
+                                    android:textColor="#FFFFFF"
+                                    android:textSize="10sp"
+                                    android:layout_height="match_parent"
+                                    android:layout_width="wrap_content"
+                                    android:layout_weight="1"
+                                    android:layout_marginTop="1dp"
+                                    android:layout_marginBottom="2.9999999999999147dp"
+                                    android:layout_marginStart="13.666748046875dp"
+                                    android:layout_marginEnd="21dp"
+                                    android:text="Dompet Digital" />
+
+                                <RelativeLayout
+                                    android:id="@+id/rz0az9idivndm"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:background="@drawable/cr5bffffff"
+                                    android:layout_marginHorizontal="0dp"
+                                    android:clipChildren="false"
+                                    android:clipToPadding="false">
+
+                                </RelativeLayout>
+
+                                <!-- Digital Wallet ; Gopay -->
+                                <LinearLayout
+                                    android:id="@+id/rooyj99qs95ed"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_vertical"
+                                    android:layout_marginBottom="7dp"
+                                    android:layout_marginHorizontal="30dp"
+                                    android:clipChildren="false"
+                                    android:clipToPadding="false"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:id="@+id/rpgc37nlafuka"
+                                        android:layout_width="16dp"
+                                        android:layout_height="16dp"
+                                        android:src="@drawable/gopay"
+                                        android:scaleType="fitXY"/>
+
+                                    <TextView
+                                        android:id="@+id/rk2fa6l5calv"
+                                        android:textColor="#FFFFFF"
+                                        android:textSize="8sp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_width="wrap_content"
+                                        android:layout_marginStart="6dp"
+                                        android:text="Gopay" />
+
+                                    <View
+                                        android:layout_width="0dp"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="1" />
+
+                                    <TextView
+                                        android:id="@+id/ro86h76r4mjzp"
+                                        android:textColor="#FFFFFF"
+                                        android:textSize="8sp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_width="wrap_content"
+                                        android:text="Rp 336.000" />
+
+                                </LinearLayout>
+
+                                <!-- Digital Wallet ; ShoopePay -->
+                                <LinearLayout
+                                    android:id="@+id/rooyj99q395ed"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_vertical"
+                                    android:layout_marginBottom="7dp"
+                                    android:layout_marginHorizontal="30dp"
+                                    android:clipChildren="false"
+                                    android:clipToPadding="false"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:id="@+id/rpgc372nlfuka"
+                                        android:layout_width="16dp"
+                                        android:layout_height="16dp"
+                                        android:src="@drawable/shoopepay"
+                                        android:scaleType="fitXY"/>
+
+                                    <TextView
+                                        android:id="@+id/rk2fa6l1calv"
+                                        android:textColor="#FFFFFF"
+                                        android:textSize="8sp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_width="wrap_content"
+                                        android:layout_marginStart="6dp"
+                                        android:text="ShoopePay" />
+
+                                    <View
+                                        android:layout_width="0dp"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="1" />
+
+                                    <TextView
+                                        android:id="@+id/ro86hv76rmjzp"
+                                        android:textColor="#FFFFFF"
+                                        android:textSize="8sp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_width="wrap_content"
+                                        android:text="Rp 336.000" />
+
+                                </LinearLayout>
+
+                                <!-- Digital Wallet ; DANA -->
+                                <LinearLayout
+                                    android:id="@+id/rooyj99q95ed"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_vertical"
+                                    android:layout_marginBottom="7dp"
+                                    android:layout_marginHorizontal="30dp"
+                                    android:clipChildren="false"
+                                    android:clipToPadding="false"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:id="@+id/rpgc37nlfuka"
+                                        android:layout_width="16dp"
+                                        android:layout_height="16dp"
+                                        android:src="@drawable/dana"
+                                        android:scaleType="fitXY"/>
+
+                                    <TextView
+                                        android:id="@+id/rk2fa6lcalv"
+                                        android:textColor="#FFFFFF"
+                                        android:textSize="8sp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_width="wrap_content"
+                                        android:layout_marginStart="6dp"
+                                        android:text="DANA" />
+
+                                    <View
+                                        android:layout_width="0dp"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="1" />
+
+                                    <TextView
+                                        android:id="@+id/ro86h76rmjzp"
+                                        android:textColor="#FFFFFF"
+                                        android:textSize="8sp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_width="wrap_content"
+                                        android:text="Rp 336.000" />
+
+                                </LinearLayout>
+
+                                <RelativeLayout
+                                    android:id="@+id/rz0az19idivnm"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:background="@drawable/cr5bffffff"
+                                    android:layout_marginHorizontal="0dp"
+                                    android:clipChildren="false"
+                                    android:clipToPadding="false">
+
+                                </RelativeLayout>
+
+                                <!-- Bank Transfer -->
+                                <TextView
+                                    android:id="@+id/rqz2t1a4qqw2g"
+                                    android:textColor="#FFFFFF"
+                                    android:textSize="10sp"
+                                    android:layout_height="match_parent"
+                                    android:layout_width="wrap_content"
+                                    android:layout_weight="1"
+                                    android:layout_marginTop="1dp"
+                                    android:layout_marginBottom="2.9999999999999147dp"
+                                    android:layout_marginStart="13.666748046875dp"
+                                    android:layout_marginEnd="21dp"
+                                    android:text="Transfer Bank" />
+
+                                <RelativeLayout
+                                    android:id="@+id/rz0az9iadivndm"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:background="@drawable/cr5bffffff"
+                                    android:layout_marginHorizontal="0dp"
+                                    android:clipChildren="false"
+                                    android:clipToPadding="false">
+
+                                </RelativeLayout>
+
+                                <!-- Bank Transfer ; BNI -->
+                                <LinearLayout
+                                    android:id="@+id/rooyj99qs95sed"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_vertical"
+                                    android:layout_marginBottom="7dp"
+                                    android:layout_marginHorizontal="30dp"
+                                    android:clipChildren="false"
+                                    android:clipToPadding="false"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:id="@+id/rpgc37ndlafuka"
+                                        android:layout_width="16dp"
+                                        android:layout_height="16dp"
+                                        android:src="@drawable/bank_bni"
+                                        android:scaleType="fitXY"/>
+
+                                    <TextView
+                                        android:id="@+id/rk2fa6gl5calv"
+                                        android:textColor="#FFFFFF"
+                                        android:textSize="8sp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_width="wrap_content"
+                                        android:layout_marginStart="6dp"
+                                        android:text="BNI" />
+
+                                    <View
+                                        android:layout_width="0dp"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="1" />
+
+                                    <TextView
+                                        android:id="@+id/ro86h76rm4mjzp"
+                                        android:textColor="#FFFFFF"
+                                        android:textSize="8sp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_width="wrap_content"
+                                        android:text="Rp 336.000" />
+
+                                </LinearLayout>
+
+                                <!-- Bank Transfer ; BRI -->
+                                <LinearLayout
+                                    android:id="@+id/rooyj99q39ed"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_vertical"
+                                    android:layout_marginBottom="7dp"
+                                    android:layout_marginHorizontal="30dp"
+                                    android:clipChildren="false"
+                                    android:clipToPadding="false"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:id="@+id/rpgc72nlfuka"
+                                        android:layout_width="16dp"
+                                        android:layout_height="16dp"
+                                        android:src="@drawable/bank_bri"
+                                        android:scaleType="fitXY"/>
+
+                                    <TextView
+                                        android:id="@+id/rk2fa6l1alv"
+                                        android:textColor="#FFFFFF"
+                                        android:textSize="8sp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_width="wrap_content"
+                                        android:layout_marginStart="6dp"
+                                        android:text="BRI" />
+
+                                    <View
+                                        android:layout_width="0dp"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="1" />
+
+                                    <TextView
+                                        android:id="@+id/ro86hv76r0mjzp"
+                                        android:textColor="#FFFFFF"
+                                        android:textSize="8sp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_width="wrap_content"
+                                        android:text="Rp 336.000" />
+
+                                </LinearLayout>
+
+                                <!-- Bank Transfer ; BCA -->
+                                <LinearLayout
+                                    android:id="@+id/rooyj99q9m5ed"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_vertical"
+                                    android:layout_marginBottom="7dp"
+                                    android:layout_marginHorizontal="30dp"
+                                    android:clipChildren="false"
+                                    android:clipToPadding="false"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:id="@+id/rpgc37nlfukka"
+                                        android:layout_width="16dp"
+                                        android:layout_height="16dp"
+                                        android:src="@drawable/bank_bca"
+                                        android:scaleType="fitXY"/>
+
+                                    <TextView
+                                        android:id="@+id/rk2fa6lcanlv"
+                                        android:textColor="#FFFFFF"
+                                        android:textSize="8sp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_width="wrap_content"
+                                        android:layout_marginStart="6dp"
+                                        android:text="BCA" />
+
+                                    <View
+                                        android:layout_width="0dp"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="1" />
+
+                                    <TextView
+                                        android:id="@+id/ro86h76rssmjzp"
+                                        android:textColor="#FFFFFF"
+                                        android:textSize="8sp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_width="wrap_content"
+                                        android:text="Rp 336.000" />
+
+                                </LinearLayout>
+
+                                <RelativeLayout
+                                    android:id="@+id/rz0az1s9idivnm"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:background="@drawable/cr5bffffff"
+                                    android:layout_marginHorizontal="0dp"
+                                    android:clipChildren="false"
+                                    android:clipToPadding="false">
+
+                                </RelativeLayout>
+
+                                <!-- Cash On Delivery -->
+                                <TextView
+                                    android:id="@+id/rqz2t1a4qqw2wg"
+                                    android:textColor="#FFFFFF"
+                                    android:textSize="10sp"
+                                    android:layout_height="match_parent"
+                                    android:layout_width="wrap_content"
+                                    android:layout_weight="1"
+                                    android:layout_marginTop="1dp"
+                                    android:layout_marginBottom="2.9999999999999147dp"
+                                    android:layout_marginStart="13.666748046875dp"
+                                    android:layout_marginEnd="21dp"
+                                    android:text="Cash On Delivery" />
+
+                                <RelativeLayout
+                                    android:id="@+id/rz0az9iadiqvndm"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:background="@drawable/cr5bffffff"
+                                    android:layout_marginHorizontal="0dp"
+                                    android:clipChildren="false"
+                                    android:clipToPadding="false">
+
+                                </RelativeLayout>
+
+                                <!-- Cash On Delivery ; COD -->
+                                <LinearLayout
+                                    android:id="@+id/rooyj99qsa95sed"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_vertical"
+                                    android:layout_marginBottom="7dp"
+                                    android:layout_marginHorizontal="30dp"
+                                    android:clipChildren="false"
+                                    android:clipToPadding="false"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:id="@+id/rpgc37ndlaafuka"
+                                        android:layout_width="16dp"
+                                        android:layout_height="16dp"
+                                        android:src="@drawable/cod"
+                                        android:scaleType="fitXY"/>
+
+                                    <TextView
+                                        android:id="@+id/rk2fas6gl5calv"
+                                        android:textColor="#FFFFFF"
+                                        android:textSize="8sp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_width="wrap_content"
+                                        android:layout_marginStart="6dp"
+                                        android:text="Cash On Delivery (COD)" />
+
+                                    <View
+                                        android:layout_width="0dp"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="1" />
+
+                                    <TextView
+                                        android:id="@+id/ro86h76rm4mjdzp"
+                                        android:textColor="#FFFFFF"
+                                        android:textSize="8sp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_width="wrap_content"
+                                        android:text="Rp 336.000" />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <!-- Shipping Location -->
+                            <LinearLayout
+                                android:id="@+id/rjtywzsx3f7"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/cr5b468585"
+                                android:paddingVertical="6dp"
+                                android:layout_marginBottom="16dp"
+                                android:clipChildren="false"
+                                android:clipToPadding="false"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:id="@+id/rgmcwh42ov3w"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_vertical"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_marginHorizontal="8dp"
+                                    android:clipChildren="false"
+                                    android:clipToPadding="false"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:id="@+id/rh1x1evvgr5"
+                                        android:textColor="#FFFFFF"
+                                        android:textSize="10sp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_width="wrap_content"
+                                        android:text="Tentukan Lokasi Pengiriman" />
+
+                                    <View
+                                        android:layout_width="0dp"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="1" />
+
+                                    <!-- Bottom Location -->
+                                    <LinearLayout
+                                        android:id="@+id/rwtxes1p2t7a"
+                                        android:layout_width="73dp"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center_horizontal"
+                                        android:background="@drawable/cr5bffffff"
+                                        android:paddingVertical="3dp"
+                                        android:clipChildren="false"
+                                        android:clipToPadding="false"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:id="@+id/rv950trbxyh9"
+                                            android:textColor="#468585"
+                                            android:textSize="7sp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_width="wrap_content"
+                                            android:text="Tentukan Lokasi" />
+
+                                    </LinearLayout>
+
+                                    <View
+                                        android:layout_width="0dp"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="1" />
+
+                                    <!-- Bottom Maps -->
+                                    <LinearLayout
+                                        android:id="@+id/rwtxes1p2t87a"
+                                        android:layout_width="41dp"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center_horizontal"
+                                        android:background="@drawable/cr5bffffff"
+                                        android:paddingVertical="3dp"
+                                        android:clipChildren="false"
+                                        android:clipToPadding="false"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:id="@+id/rv950tdvrbxyh9"
+                                            android:textColor="#468585"
+                                            android:textSize="7sp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_width="wrap_content"
+                                            android:text="MAPS" />
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                                <RelativeLayout
+                                    android:id="@+id/rz0az49idivnm"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_marginBottom="0dp"
+                                    android:background="@drawable/cr5bffffff"
+                                    android:layout_marginHorizontal="0dp"
+                                    android:clipChildren="false"
+                                    android:clipToPadding="false">
+
+                                </RelativeLayout>
+
+                                <LinearLayout
+                                    android:id="@+id/r9k268y8r7j8"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:clipChildren="false"
+                                    android:clipToPadding="false"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:id="@+id/r9ti4auzch6b"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="128dp"
+                                        android:layout_marginTop="3dp"
+                                        android:src="@drawable/google_maps"
+                                        android:scaleType="fitXY" />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/rqrz57wzt5tj"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical"
+                                android:layout_marginBottom="16dp"
+                                android:clipChildren="false"
+                                android:clipToPadding="false"
+                                android:orientation="horizontal">
+
+                                <!-- Bottom Voucher Code -->
+                                <LinearLayout
+                                    android:id="@+id/r7wh6xe5u0x7"
+                                    android:layout_width="134dp"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_horizontal"
+                                    android:background="@drawable/cr5b468585"
+                                    android:paddingVertical="11dp"
+                                    android:clipChildren="false"
+                                    android:layout_marginEnd="3dp"
+                                    android:clipToPadding="false"
+                                    android:clickable="true"
+                                    android:focusable="true"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:id="@+id/r0ywb3ub2jok"
+                                        android:textColor="#FFFFFF"
+                                        android:textSize="13sp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_width="wrap_content"
+                                        android:text="KODE VOUCHER" />
+
+                                </LinearLayout>
+
+                                <View
+                                    android:layout_width="0dp"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="1" />
+
+                                <!-- Input Voucher Code -->
+                                <LinearLayout
+                                    android:id="@+id/rvu3xv2cphu"
+                                    android:layout_width="133dp"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_horizontal"
+                                    android:background="@drawable/cr5bd9d9d9"
+                                    android:paddingVertical="14dp"
+                                    android:clipChildren="false"
+                                    android:clipToPadding="false"
+                                    android:clickable="true"
+                                    android:focusable="true"
+                                    android:orientation="vertical">
+
+                                    <EditText
+                                        android:id="@+id/rqpb40zamdj"
+                                        android:textColor="#000000"
+                                        android:textSize="10sp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_width="wrap_content"
+                                        android:hint="Masukan Kode Voucher"
+                                        android:background="@drawable/edit_text"/>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <!-- Item Price Table -->
+                            <LinearLayout
+                                android:id="@+id/rqc7epyuuz8e"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/sffffffsw1cr5b468585"
+                                android:paddingVertical="22dp"
+                                android:paddingHorizontal="27dp"
+                                android:clipChildren="false"
+                                android:clipToPadding="false"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:id="@+id/r5qudes93d63"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_vertical"
+                                    android:layout_marginBottom="15dp"
+                                    android:clipChildren="false"
+                                    android:clipToPadding="false"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:id="@+id/r69g44s38jo"
+                                        android:textColor="#FFFFFF"
+                                        android:textSize="10sp"
+                                        android:layout_marginEnd="4dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_width="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="Nama" />
+
+                                    <TextView
+                                        android:id="@+id/r3nka9r1se7v"
+                                        android:textColor="#FFFFFF"
+                                        android:textSize="10sp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_width="wrap_content"
+                                        android:text="Harga" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:id="@+id/rowzxzpz2z6j"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_vertical"
+                                    android:layout_marginBottom="8dp"
+                                    android:clipChildren="false"
+                                    android:clipToPadding="false"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:id="@+id/rvjjjfu8g1gf"
+                                        android:textColor="#FFFFFF"
+                                        android:textSize="11sp"
+                                        android:layout_marginEnd="4dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_width="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="Sayur Selada" />
+
+                                    <TextView
+                                        android:id="@+id/rmb84yst6t6"
+                                        android:textColor="#FFFFFF"
+                                        android:textSize="11sp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_width="wrap_content"
+                                        android:text="Rp 74.000" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:id="@+id/rzr2ls6y517l"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_vertical"
+                                    android:layout_marginBottom="8dp"
+                                    android:clipChildren="false"
+                                    android:clipToPadding="false"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:id="@+id/rkvviwnhn0c"
+                                        android:textColor="#FFFFFF"
+                                        android:textSize="11sp"
+                                        android:layout_marginEnd="4dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_width="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="Bunga Anggrek" />
+
+                                    <TextView
+                                        android:id="@+id/romymlt6772b"
+                                        android:textColor="#FFFFFF"
+                                        android:textSize="11sp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_width="wrap_content"
+                                        android:text="Rp 150.000" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:id="@+id/rlcqdpp1xoo"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_vertical"
+                                    android:layout_marginBottom="7dp"
+                                    android:clipChildren="false"
+                                    android:clipToPadding="false"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:id="@+id/rvioepgsvc9p"
+                                        android:textColor="#FFFFFF"
+                                        android:textSize="11sp"
+                                        android:layout_marginEnd="4dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_width="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="Alocasia" />
+
+                                    <TextView
+                                        android:id="@+id/r14pecfly56g"
+                                        android:textColor="#FFFFFF"
+                                        android:textSize="11sp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_width="wrap_content"
+                                        android:text="Rp 75.000" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:id="@+id/r8pffuqr61vg"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_vertical"
+                                    android:layout_marginBottom="9dp"
+                                    android:clipChildren="false"
+                                    android:clipToPadding="false"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:id="@+id/r7bk0wc11du4"
+                                        android:textColor="#FFFFFF"
+                                        android:textSize="10sp"
+                                        android:layout_marginEnd="4dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_width="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="Ongkir" />
+
+                                    <TextView
+                                        android:id="@+id/r6tqvbzknwyr"
+                                        android:textColor="#FFFFFF"
+                                        android:textSize="11sp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_width="wrap_content"
+                                        android:text="Rp 35.000" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:id="@+id/rne6frmueoog"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_vertical"
+                                    android:layout_marginBottom="10dp"
+                                    android:clipChildren="false"
+                                    android:clipToPadding="false"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:id="@+id/rsxbba1z1jfc"
+                                        android:textColor="#FFFFFF"
+                                        android:textSize="10sp"
+                                        android:layout_marginEnd="4dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_width="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="Biaya Aplikasi" />
+
+                                    <TextView
+                                        android:id="@+id/ruw2xjdvjnf"
+                                        android:textColor="#FFFFFF"
+                                        android:textSize="11sp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_width="wrap_content"
+                                        android:text="Rp 2.000" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:id="@+id/rzr9bejugi8"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="5dp"
+                                    android:background="#FFFFFF"
+                                    android:layout_marginBottom="9dp"
+                                    android:clipChildren="false"
+                                    android:clipToPadding="false"
+                                    android:orientation="vertical">
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:id="@+id/ramq74f0j9jv"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_vertical"
+                                    android:clipChildren="false"
+                                    android:clipToPadding="false"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:id="@+id/r4jzwqgn4dpx"
+                                        android:textColor="#FFFFFF"
+                                        android:textSize="12sp"
+                                        android:layout_marginEnd="4dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_width="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="Total Harga" />
+
+                                    <TextView
+                                        android:id="@+id/ruw6wrdl9lpd"
+                                        android:textColor="#FFFFFF"
+                                        android:textSize="12sp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_width="wrap_content"
+                                        android:text="Rp 336.000" />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/rqrz5c7wzt5tj"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:layout_marginBottom="16dp"
+                            android:clipChildren="false"
+                            android:clipToPadding="false"
+                            android:orientation="horizontal">
+
+                            <!-- Bottom Cancel -->
+                            <LinearLayout
+                                android:id="@+id/r7wh6xe5u0ax7"
+                                android:layout_width="134dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal"
+                                android:background="@drawable/cr5beb4335"
+                                android:paddingVertical="11dp"
+                                android:clipChildren="false"
+                                android:layout_marginEnd="3dp"
+                                android:clipToPadding="false"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/rg49qp1zsmbc"
+                                    android:textColor="#FFFFFF"
+                                    android:textSize="20sp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="wrap_content"
+                                    android:text="Cancel"/>
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="0dp"
+                                android:layout_height="0dp"
+                                android:layout_weight="1" />
+
+                            <!-- Bottom Buy Now -->
+                            <LinearLayout
+                                android:id="@+id/r7wh6xe5ud0ax7"
+                                android:layout_width="134dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal"
+                                android:background="@drawable/cr5b468585"
+                                android:paddingVertical="11dp"
+                                android:clipChildren="false"
+                                android:layout_marginEnd="3dp"
+                                android:clipToPadding="false"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/r9nje52r4mto"
+                                    android:textColor="#FFFFFF"
+                                    android:textSize="20sp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="wrap_content"
+                                    android:text="Buy Now" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/rzr9bejaugi8"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:background="#DEF9C4"
+                            android:layout_marginBottom="9dp"
+                            android:clipChildren="false"
+                            android:clipToPadding="false"
+                            android:orientation="vertical">
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </ScrollView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

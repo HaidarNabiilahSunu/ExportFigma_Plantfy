@@ -1,0 +1,1082 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Page_Product">
+
+    <!-- Root LinearLayout -->
+    <LinearLayout
+        android:background="@color/surfaceContainerLowest"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- LinearLayout for content -->
+        <LinearLayout
+            android:id="@+id/rknqma0cs1q"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#DEF9C4"
+            android:paddingTop="69dp">
+
+            <!-- Main LinearLayout inside ScrollView -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <!-- Header User Information -->
+                <LinearLayout
+                    android:id="@+id/rsrzqp99h16a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="14dp"
+                    android:layout_marginHorizontal="53dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/rk124c1m256"
+                        android:layout_width="33dp"
+                        android:layout_height="33dp"
+                        android:layout_marginEnd="9dp"
+                        android:src="@drawable/userface"
+                        android:scaleType="fitXY" />
+
+                    <TextView
+                        android:id="@+id/r8frsizm82l9"
+                        android:textColor="#468585"
+                        android:textSize="13sp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Zahra’s Account" />
+
+                    <LinearLayout
+                        android:id="@+id/rxa8bhsaekol"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/r1dfm6lcmypl"
+                        android:layout_width="14dp"
+                        android:layout_height="16dp"
+                        android:src="@drawable/bell"
+                        android:scaleType="fitXY" />
+
+                </LinearLayout>
+
+                <!-- Search Bar -->
+                <LinearLayout
+                    android:id="@+id/rf8xkco8jqq5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/cr5bffffff"
+                    android:paddingVertical="13dp"
+                    android:paddingHorizontal="12dp"
+                    android:layout_marginBottom="14dp"
+                    android:layout_marginHorizontal="50dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/rlr9yjbyd0c"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_marginEnd="13dp"
+                        android:src="@drawable/search"
+                        android:scaleType="fitXY" />
+
+                    <EditText
+                        android:id="@+id/rq1vkzfc6uqm"
+                        android:textColor="#468585"
+                        android:textSize="@dimen/fontsize_label_small"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/edit_text_background"
+                        android:hint="Search Your Plant" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="14dp"
+                    android:layout_marginHorizontal="50dp">
+
+                    <LinearLayout
+                        android:id="@+id/r8b740bgjdqj"
+                        android:layout_width="65dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:background="@drawable/cr10b468585"
+                        android:paddingVertical="11dp"
+                        android:layout_marginEnd="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/rb26817hnltd"
+                            android:textColor="#ffffff"
+                            android:textSize="9dp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="Plantify Mall" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/r8b740bgj2dqj"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:background="@drawable/cr10bffffff"
+                        android:paddingVertical="11dp"
+                        android:layout_marginEnd="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/rbol26817hnltd"
+                            android:textColor="#468585"
+                            android:textSize="9dp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="Terlaris" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/r548b740bgjdqj"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:background="@drawable/cr10bffffff"
+                        android:paddingVertical="11dp"
+                        android:layout_marginEnd="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/rb26817hnlntd"
+                            android:textColor="#468585"
+                            android:textSize="9dp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="Termurah" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/r8b7l40bgj2dqj"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:background="@drawable/cr10bffffff"
+                        android:paddingVertical="11dp"
+                        android:layout_marginEnd="8dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/r1dfm6lcmmypl"
+                            android:layout_width="14dp"
+                            android:layout_height="13dp"
+                            android:src="@drawable/star"
+                            android:layout_marginEnd="6dp"
+                            android:scaleType="fitXY" />
+
+                        <TextView
+                            android:id="@+id/vhj26k8172nlt"
+                            android:textColor="#468585"
+                            android:textSize="9dp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="5 Star" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <ScrollView
+                    android:id="@+id/r4bonh3bn2vp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="#DEF9C4"
+                    android:paddingTop="6dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <!-- Group Product 1 -->
+                        <LinearLayout
+                            android:id="@+id/r3k9vpcbz32e"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginHorizontal="48dp"
+                            android:orientation="horizontal">
+
+                            <!-- Product 1 -->
+                            <RelativeLayout
+                                android:id="@+id/rb2awj446514ba_rl"
+                                android:layout_width="132dp"
+                                android:layout_height="292dp"
+                                android:layout_marginEnd="20dp">
+
+                                <com.google.android.material.imageview.ShapeableImageView
+                                    android:id="@+id/rb2awj441he4ba"
+                                    android:layout_width="146dp"
+                                    android:layout_height="212dp"
+                                    android:src="@drawable/brokoli_fresh"
+                                    android:scaleType="fitXY" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <LinearLayout
+                                        android:id="@+id/r8urjy5mlmop62w"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:background="#468585"
+                                        android:paddingVertical="14dp"
+                                        android:paddingHorizontal="11dp"
+                                        android:layout_marginTop="168dp"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:id="@+id/r6hjw2mklb54mkwm"
+                                            android:textColor="@color/surfaceContainerLowest"
+                                            android:textSize="15sp"
+                                            android:layout_marginBottom="1dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_width="wrap_content"
+                                            android:text="Brokoli Fresh" />
+
+                                        <TextView
+                                            android:id="@+id/rb7rjfr97boy555w"
+                                            android:textColor="@color/surfaceContainerLowest"
+                                            android:textSize="10dp"
+                                            android:layout_marginBottom="4dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_width="wrap_content"
+                                            android:text="Rp 42.000 " />
+
+                                        <LinearLayout
+                                            android:id="@+id/rzijuzxiwq74l8"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:gravity="center_vertical"
+                                            android:orientation="horizontal">
+
+                                            <LinearLayout
+                                                android:id="@+id/rzuuwi2zb8e"
+                                                android:layout_width="76dp"
+                                                android:layout_height="48dp"
+                                                android:background="@drawable/cr5bffffff"
+                                                android:paddingVertical="10dp"
+                                                android:orientation="vertical">
+
+                                                <TextView
+                                                    android:id="@+id/rkeihzl37zm"
+                                                    android:textColor="#468585"
+                                                    android:textSize="8sp"
+                                                    android:layout_marginBottom="5dp"
+                                                    android:layout_marginHorizontal="6dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_weight="1"
+                                                    android:text="DISKON SPESIAL" />
+
+                                                <TextView
+                                                    android:id="@+id/r8lvhm85d3cb"
+                                                    android:textColor="#468585"
+                                                    android:textSize="10dp"
+                                                    android:layout_marginHorizontal="26dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_weight="1"
+                                                    android:text="20%*" />
+
+                                            </LinearLayout>
+
+                                            <View
+                                                android:layout_width="0dp"
+                                                android:layout_height="0dp"
+                                                android:layout_weight="1" />
+
+                                            <LinearLayout
+                                                android:id="@+id/rxmgm5xdxgle"
+                                                android:layout_width="32dp"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginHorizontal="8dp"
+                                                android:orientation="vertical">
+
+                                                <ImageView
+                                                    android:id="@+id/r4yhmjzy6jvm"
+                                                    android:layout_width="14dp"
+                                                    android:layout_height="14dp"
+                                                    android:layout_marginBottom="7dp"
+                                                    android:layout_marginHorizontal="6dp"
+                                                    android:src="@drawable/star"
+                                                    android:scaleType="fitXY" />
+
+                                                <TextView
+                                                    android:id="@+id/rsleffo9bu1s"
+                                                    android:textColor="@color/surfaceContainerLowest"
+                                                    android:textSize="10dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_weight="1"
+                                                    android:text="4.5/5 " />
+
+                                            </LinearLayout>
+
+                                        </LinearLayout>
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                            </RelativeLayout>
+
+                            <!-- Product 2 -->
+                            <RelativeLayout
+                                android:id="@+id/rb2awj4414ba_rl"
+                                android:layout_width="132dp"
+                                android:layout_height="292dp"
+                                android:layout_marginEnd="20dp">
+
+                                <com.google.android.material.imageview.ShapeableImageView
+                                    android:id="@+id/rb2awj4414ba"
+                                    android:layout_width="146dp"
+                                    android:layout_height="212dp"
+                                    android:src="@drawable/tomat_segar"
+                                    android:scaleType="fitXY" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <LinearLayout
+                                        android:id="@+id/r8urjy5op62w"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:background="#468585"
+                                        android:paddingVertical="14dp"
+                                        android:paddingHorizontal="11dp"
+                                        android:layout_marginTop="168dp"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:id="@+id/r6hjw2b54kwm"
+                                            android:textColor="@color/surfaceContainerLowest"
+                                            android:textSize="15sp"
+                                            android:layout_marginBottom="1dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_width="wrap_content"
+                                            android:text="Tomat Segar" />
+
+                                        <TextView
+                                            android:id="@+id/rb797boy555w"
+                                            android:textColor="@color/surfaceContainerLowest"
+                                            android:textSize="10dp"
+                                            android:layout_marginBottom="4dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_width="wrap_content"
+                                            android:text="Rp 32.000  " />
+
+                                        <LinearLayout
+                                            android:id="@+id/rzizxiwq74l8"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:gravity="center_vertical"
+                                            android:orientation="horizontal">
+
+                                            <LinearLayout
+                                                android:id="@+id/rzuuwi2nekzb8e"
+                                                android:layout_width="76dp"
+                                                android:layout_height="48dp"
+                                                android:background="@drawable/cr5bffffff"
+                                                android:paddingVertical="10dp"
+                                                android:orientation="vertical">
+
+                                                <TextView
+                                                    android:id="@+id/rkeihzldkm37zm"
+                                                    android:textColor="#468585"
+                                                    android:textSize="8sp"
+                                                    android:layout_marginBottom="5dp"
+                                                    android:layout_marginHorizontal="6dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_weight="1"
+                                                    android:text="DISKON SPESIAL" />
+
+                                                <TextView
+                                                    android:id="@+id/r8lvhm8n5d3cb"
+                                                    android:textColor="#468585"
+                                                    android:textSize="10dp"
+                                                    android:layout_marginHorizontal="26dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_weight="1"
+                                                    android:text="50%*" />
+
+                                            </LinearLayout>
+
+                                            <View
+                                                android:layout_width="0dp"
+                                                android:layout_height="0dp"
+                                                android:layout_weight="1" />
+
+                                            <LinearLayout
+                                                android:id="@+id/rxmjigm5xdxgle"
+                                                android:layout_width="32dp"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginHorizontal="8dp"
+                                                android:orientation="vertical">
+
+                                                <ImageView
+                                                    android:id="@+id/r4yhmjzkwedny6jvm"
+                                                    android:layout_width="14dp"
+                                                    android:layout_height="14dp"
+                                                    android:layout_marginBottom="7dp"
+                                                    android:layout_marginHorizontal="6dp"
+                                                    android:src="@drawable/star"
+                                                    android:scaleType="fitXY" />
+
+                                                <TextView
+                                                    android:id="@+id/rsleffsmco9bu1s"
+                                                    android:textColor="@color/surfaceContainerLowest"
+                                                    android:textSize="10dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_weight="1"
+                                                    android:text="4.5/5 " />
+                                            </LinearLayout>
+
+                                        </LinearLayout>
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                            </RelativeLayout>
+
+                        </LinearLayout>
+
+                        <!-- Group Product 2 -->
+                        <LinearLayout
+                            android:id="@+id/r3k9vpcbz3k2e"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginHorizontal="50dp"
+                            android:orientation="horizontal">
+
+                            <!-- Product 3 -->
+                            <RelativeLayout
+                                android:id="@+id/rb2awj44651kj4ba_rl"
+                                android:layout_width="132dp"
+                                android:layout_height="292dp"
+                                android:layout_marginEnd="20dp">
+
+                                <com.google.android.material.imageview.ShapeableImageView
+                                    android:id="@+id/rb2awj441khe4ba"
+                                    android:layout_width="146dp"
+                                    android:layout_height="212dp"
+                                    android:src="@drawable/bonsai_serut"
+                                    android:scaleType="fitXY" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <LinearLayout
+                                        android:id="@+id/r8urjy5mlmopml62w"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:background="#468585"
+                                        android:paddingVertical="14dp"
+                                        android:paddingHorizontal="11dp"
+                                        android:layout_marginTop="168dp"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:id="@+id/r6hjw2mklb5mf4kwm"
+                                            android:textColor="@color/surfaceContainerLowest"
+                                            android:textSize="15sp"
+                                            android:layout_marginBottom="1dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_width="wrap_content"
+                                            android:text="Bonsai Serut" />
+
+                                        <TextView
+                                            android:id="@+id/rb7rjfr97dhdboy555w"
+                                            android:textColor="@color/surfaceContainerLowest"
+                                            android:textSize="10dp"
+                                            android:layout_marginBottom="4dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_width="wrap_content"
+                                            android:text="Rp 500.000 " />
+
+                                        <LinearLayout
+                                            android:id="@+id/rzijuzximvwq7dxdg4l8"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:gravity="center_vertical"
+                                            android:orientation="horizontal">
+
+                                            <LinearLayout
+                                                android:id="@+id/rzuuwji2xxzb8e"
+                                                android:layout_width="76dp"
+                                                android:layout_height="48dp"
+                                                android:background="@drawable/cr5bffffff"
+                                                android:paddingVertical="10dp"
+                                                android:orientation="vertical">
+
+                                                <TextView
+                                                    android:id="@+id/rkswdreihzl37zm"
+                                                    android:textColor="#468585"
+                                                    android:textSize="8sp"
+                                                    android:layout_marginBottom="5dp"
+                                                    android:layout_marginHorizontal="6dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_weight="1"
+                                                    android:text="DISKON SPESIAL" />
+
+                                                <TextView
+                                                    android:id="@+id/r8lvhhm85d3cb"
+                                                    android:textColor="#468585"
+                                                    android:textSize="10dp"
+                                                    android:layout_marginHorizontal="26dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_weight="1"
+                                                    android:text="05%*" />
+
+                                            </LinearLayout>
+
+                                            <View
+                                                android:layout_width="0dp"
+                                                android:layout_height="0dp"
+                                                android:layout_weight="1" />
+
+                                            <LinearLayout
+                                                android:id="@+id/rxmgm5xftdxgle"
+                                                android:layout_width="32dp"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginHorizontal="8dp"
+                                                android:orientation="vertical">
+
+                                                <ImageView
+                                                    android:id="@+id/r4yhmjzmcvy6jvm"
+                                                    android:layout_width="14dp"
+                                                    android:layout_height="14dp"
+                                                    android:layout_marginBottom="7dp"
+                                                    android:layout_marginHorizontal="6dp"
+                                                    android:src="@drawable/star"
+                                                    android:scaleType="fitXY" />
+
+                                                <TextView
+                                                    android:id="@+id/rsleffo9bnknu1s"
+                                                    android:textColor="@color/surfaceContainerLowest"
+                                                    android:textSize="10dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_weight="1"
+                                                    android:text="4.5/5 " />
+
+                                            </LinearLayout>
+
+                                        </LinearLayout>
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                            </RelativeLayout>
+
+                            <!-- Product 4 -->
+                            <RelativeLayout
+                                android:id="@+id/rb2awj4414bakv_rl"
+                                android:layout_width="132dp"
+                                android:layout_height="292dp"
+                                android:layout_marginEnd="20dp">
+
+                                <com.google.android.material.imageview.ShapeableImageView
+                                    android:id="@+id/rb2awj44mnk14ba"
+                                    android:layout_width="146dp"
+                                    android:layout_height="212dp"
+                                    android:src="@drawable/lavender"
+                                    android:scaleType="fitXY" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <LinearLayout
+                                        android:id="@+id/r8urmlnjy5op62w"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:background="#468585"
+                                        android:paddingVertical="14dp"
+                                        android:paddingHorizontal="11dp"
+                                        android:layout_marginTop="168dp"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:id="@+id/r6hjmcfw2b54kwm"
+                                            android:textColor="@color/surfaceContainerLowest"
+                                            android:textSize="15sp"
+                                            android:layout_marginBottom="1dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_width="wrap_content"
+                                            android:text="Lavender"
+                                            />
+                                        <TextView
+                                            android:id="@+id/rb79xnv7boyskn555w"
+                                            android:textColor="@color/surfaceContainerLowest"
+                                            android:textSize="10dp"
+                                            android:layout_marginBottom="4dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_width="wrap_content"
+                                            android:text="Rp 50.000  " />
+
+                                        <LinearLayout
+                                            android:id="@+id/rzizxiwqnmd74l8"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:gravity="center_vertical"
+                                            android:orientation="horizontal">
+
+                                            <LinearLayout
+                                                android:id="@+id/rzuuwinkd2nekzb8e"
+                                                android:layout_width="76dp"
+                                                android:layout_height="48dp"
+                                                android:background="@drawable/cr5bffffff"
+                                                android:paddingVertical="10dp"
+                                                android:orientation="vertical">
+
+                                                <TextView
+                                                    android:id="@+id/rkeihzldkwldm37zm"
+                                                    android:textColor="#468585"
+                                                    android:textSize="8sp"
+                                                    android:layout_marginBottom="5dp"
+                                                    android:layout_marginHorizontal="6dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_weight="1"
+                                                    android:text="DISKON SPESIAL" />
+
+                                                <TextView
+                                                    android:id="@+id/r8lvhm8n5dnx3cb"
+                                                    android:textColor="#468585"
+                                                    android:textSize="10dp"
+                                                    android:layout_marginHorizontal="26dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_weight="1"
+                                                    android:text="04%*" />
+
+                                            </LinearLayout>
+
+                                            <View
+                                                android:layout_width="0dp"
+                                                android:layout_height="0dp"
+                                                android:layout_weight="1" />
+
+                                            <LinearLayout
+                                                android:id="@+id/rxmjigm5xmdxgle"
+                                                android:layout_width="32dp"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginHorizontal="8dp"
+                                                android:orientation="vertical">
+
+                                                <ImageView
+                                                    android:id="@+id/r4yhmjzkwmedny6jvm"
+                                                    android:layout_width="14dp"
+                                                    android:layout_height="14dp"
+                                                    android:layout_marginBottom="7dp"
+                                                    android:layout_marginHorizontal="6dp"
+                                                    android:src="@drawable/star"
+                                                    android:scaleType="fitXY" />
+
+                                                <TextView
+                                                    android:id="@+id/rsleffsmco9vj"
+                                                    android:textColor="@color/surfaceContainerLowest"
+                                                    android:textSize="10dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_weight="1"
+                                                    android:text="4.5/5 "/>
+
+                                            </LinearLayout>
+
+                                        </LinearLayout>
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                            </RelativeLayout>
+
+                        </LinearLayout>
+
+                        <!-- Group Product 3 -->
+                        <LinearLayout
+                            android:id="@+id/r3k9vpcbzxx32e"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginHorizontal="50dp"
+                            android:orientation="horizontal">
+
+                            <!-- Product 5 -->
+                            <RelativeLayout
+                                android:id="@+id/rb2awjz446514ba_rl"
+                                android:layout_width="132dp"
+                                android:layout_height="292dp"
+                                android:layout_marginEnd="20dp">
+
+                                <com.google.android.material.imageview.ShapeableImageView
+                                    android:id="@+id/rb2awj44g1he4ba"
+                                    android:layout_width="146dp"
+                                    android:layout_height="212dp"
+                                    android:src="@drawable/apple"
+                                    android:scaleType="fitXY" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <LinearLayout
+                                        android:id="@+id/r8urjy5mldmop62w"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:background="#468585"
+                                        android:paddingVertical="14dp"
+                                        android:paddingHorizontal="11dp"
+                                        android:layout_marginTop="168dp"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:id="@+id/r6hjw2mklb5412mkwm"
+                                            android:textColor="@color/surfaceContainerLowest"
+                                            android:textSize="15sp"
+                                            android:layout_marginBottom="1dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_width="wrap_content"
+                                            android:text="Apel Segar" />
+
+                                        <TextView
+                                            android:id="@+id/rb7rjfr97bkfoy555w"
+                                            android:textColor="@color/surfaceContainerLowest"
+                                            android:textSize="10dp"
+                                            android:layout_marginBottom="4dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_width="wrap_content"
+                                            android:text="Rp 30.000 " />
+
+                                        <LinearLayout
+                                            android:id="@+id/rzijuzxi45wq74l8"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:gravity="center_vertical"
+                                            android:orientation="horizontal">
+
+                                            <LinearLayout
+                                                android:id="@+id/rzuuwig2zb8e"
+                                                android:layout_width="76dp"
+                                                android:layout_height="48dp"
+                                                android:background="@drawable/cr5bffffff"
+                                                android:paddingVertical="10dp"
+                                                android:orientation="vertical">
+
+                                                <TextView
+                                                    android:id="@+id/rkeihzel37zm"
+                                                    android:textColor="#468585"
+                                                    android:textSize="8sp"
+                                                    android:layout_marginBottom="5dp"
+                                                    android:layout_marginHorizontal="6dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_weight="1"
+                                                    android:text="DISKON SPESIAL" />
+
+                                                <TextView
+                                                    android:id="@+id/r8lvhm85td3cb"
+                                                    android:textColor="#468585"
+                                                    android:textSize="10dp"
+                                                    android:layout_marginHorizontal="26dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_weight="1"
+                                                    android:text="25%*" />
+
+                                            </LinearLayout>
+
+                                            <View
+                                                android:layout_width="0dp"
+                                                android:layout_height="0dp"
+                                                android:layout_weight="1" />
+
+                                            <LinearLayout
+                                                android:id="@+id/rxmgm5xkdxgle"
+                                                android:layout_width="32dp"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginHorizontal="8dp"
+                                                android:orientation="vertical">
+
+                                                <ImageView
+                                                    android:id="@+id/r4iyhmjzy6jvm"
+                                                    android:layout_width="14dp"
+                                                    android:layout_height="14dp"
+                                                    android:layout_marginBottom="7dp"
+                                                    android:layout_marginHorizontal="6dp"
+                                                    android:src="@drawable/star"
+                                                    android:scaleType="fitXY" />
+
+                                                <TextView
+                                                    android:id="@+id/rsleffo9bbu1s"
+                                                    android:textColor="@color/surfaceContainerLowest"
+                                                    android:textSize="10dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_weight="1"
+                                                    android:text="4.5/5 " />
+
+                                            </LinearLayout>
+
+                                        </LinearLayout>
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                            </RelativeLayout>
+
+                            <!-- Product 6 -->
+                            <RelativeLayout
+                                android:id="@+id/rb2awj4414cba_rl"
+                                android:layout_width="132dp"
+                                android:layout_height="292dp"
+                                android:layout_marginEnd="20dp">
+
+                                <com.google.android.material.imageview.ShapeableImageView
+                                    android:id="@+id/rb2awjc4414ba"
+                                    android:layout_width="146dp"
+                                    android:layout_height="212dp"
+                                    android:src="@drawable/orange"
+                                    android:scaleType="fitXY" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <LinearLayout
+                                        android:id="@+id/rv8urjy5op62w"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:background="#468585"
+                                        android:paddingVertical="14dp"
+                                        android:paddingHorizontal="11dp"
+                                        android:layout_marginTop="168dp"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:id="@+id/r6hjw2b5n4kwm"
+                                            android:textColor="@color/surfaceContainerLowest"
+                                            android:textSize="15sp"
+                                            android:layout_marginBottom="1dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_width="wrap_content"
+                                            android:text="Jeruk Manis" />
+
+                                        <TextView
+                                            android:id="@+id/rb797body555www"
+                                            android:textColor="@color/surfaceContainerLowest"
+                                            android:textSize="10dp"
+                                            android:layout_marginBottom="4dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_width="wrap_content"
+                                            android:text="Rp 15.000  " />
+
+                                        <LinearLayout
+                                            android:id="@+id/rzizxiwqjwi74l8"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:gravity="center_vertical"
+                                            android:orientation="horizontal">
+
+                                            <LinearLayout
+                                                android:id="@+id/rzuuxjsowi2nekzb8e"
+                                                android:layout_width="76dp"
+                                                android:layout_height="48dp"
+                                                android:background="@drawable/cr5bffffff"
+                                                android:paddingVertical="10dp"
+                                                android:orientation="vertical">
+
+                                                <TextView
+                                                    android:id="@+id/rkeihzefldkm37zm"
+                                                    android:textColor="#468585"
+                                                    android:textSize="8sp"
+                                                    android:layout_marginBottom="5dp"
+                                                    android:layout_marginHorizontal="6dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_weight="1"
+                                                    android:text="DISKON SPESIAL" />
+
+                                                <TextView
+                                                    android:id="@+id/r8lvhm8nee5d3cb"
+                                                    android:textColor="#468585"
+                                                    android:textSize="10dp"
+                                                    android:layout_marginHorizontal="26dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_weight="1"
+                                                    android:text="15%*" />
+
+                                            </LinearLayout>
+
+                                            <View
+                                                android:layout_width="0dp"
+                                                android:layout_height="0dp"
+                                                android:layout_weight="1" />
+
+                                            <LinearLayout
+                                                android:id="@+id/rxmjigm5xdxgmxle"
+                                                android:layout_width="32dp"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginHorizontal="8dp"
+                                                android:orientation="vertical">
+
+                                                <ImageView
+                                                    android:id="@+id/r4yhmjzkwedmzny6jvm"
+                                                    android:layout_width="14dp"
+                                                    android:layout_height="14dp"
+                                                    android:layout_marginBottom="7dp"
+                                                    android:layout_marginHorizontal="6dp"
+                                                    android:src="@drawable/star"
+                                                    android:scaleType="fitXY" />
+
+                                                <TextView
+                                                    android:id="@+id/rsleffsmcmzo9bu1s"
+                                                    android:textColor="@color/surfaceContainerLowest"
+                                                    android:textSize="10dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_weight="1"
+                                                    android:text="4.5/5 " />
+                                            </LinearLayout>
+
+                                        </LinearLayout>
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                            </RelativeLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </ScrollView>
+
+                <!-- Banner Icon -->
+                <LinearLayout
+                    android:id="@+id/r8t6rau2pcd9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/cr10bffffff"
+                    android:paddingHorizontal="30dp"
+                    android:layout_marginHorizontal="50dp"
+                    android:layout_marginBottom="50dp"
+                    android:orientation="horizontal">
+
+                    <!-- Banner Icon: Index Home -->
+                    <ImageView
+                        android:id="@+id/r2a74vr9uq"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:src="@drawable/home"
+                        android:scaleType="fitXY" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+                    <!-- Banner Icon: E-mail/Chat -->
+                    <ImageView
+                        android:id="@+id/r7f34vr9e"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:src="@drawable/email"
+                        android:scaleType="fitXY" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+                    <!-- Banner Icon: Love/Heart -->
+                    <ImageView
+                        android:id="@+id/r2a7f34gbvr9uq"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:src="@drawable/heart"
+                        android:scaleType="fitXY" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+                    <!-- Banner Icon: Basket Product -->
+                    <ImageView
+                        android:id="@+id/r2a7f34vdsr9e"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:src="@drawable/basket"
+                        android:scaleType="fitXY" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+  </androidx.constraintlayout.widget.ConstraintLayout>

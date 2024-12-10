@@ -1,0 +1,992 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Page_Wishlist">
+
+    <!-- Root LinearLayout -->
+    <LinearLayout
+        android:background="@color/surfaceContainerLowest"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- LinearLayout for content -->
+        <LinearLayout
+            android:id="@+id/r3oibpljsoqq"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#DEF9C4"
+            android:paddingTop="36dp"
+            android:paddingHorizontal="30dp">
+
+            <!-- Main LinearLayout inside ScrollView -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <!-- Header Section -->
+                <LinearLayout
+                    android:id="@+id/rqr9o7lshi2l"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="7dp"
+                    android:layout_marginBottom="15dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/rtsalamhn2ef"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginEnd="68dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/arrow" />
+
+                    <TextView
+                        android:id="@+id/rhqoh6itg62e"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:text="My Wishlist"
+                        android:textColor="#468585"
+                        android:textSize="@dimen/fontsize_headline_small" />
+
+                    <LinearLayout
+                        android:id="@+id/ru9ky0skjnzn"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/rtsalamhn92ef"
+                        android:layout_width="26dp"
+                        android:layout_height="26dp"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginEnd="1dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/menu" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="14dp"
+                    android:layout_marginHorizontal="20dp">
+
+                    <LinearLayout
+                        android:id="@+id/r8b740bgjdqj"
+                        android:layout_width="65dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:background="@drawable/cr10b468585"
+                        android:paddingVertical="11dp"
+                        android:layout_marginEnd="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/rb26817hnltd"
+                            android:textColor="#ffffff"
+                            android:textSize="9dp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="Plantify Mall" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/r8b740bgj2dqj"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:background="@drawable/cr10bffffff"
+                        android:paddingVertical="11dp"
+                        android:layout_marginEnd="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/rbol26817hnltd"
+                            android:textColor="#468585"
+                            android:textSize="9dp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="Terlaris" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/r548b740bgjdqj"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:background="@drawable/cr10bffffff"
+                        android:paddingVertical="11dp"
+                        android:layout_marginEnd="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/rb26817hnlntd"
+                            android:textColor="#468585"
+                            android:textSize="9dp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="Termurah" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/r8b7l40bgj2dqj"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:background="@drawable/cr10bffffff"
+                        android:paddingVertical="11dp"
+                        android:layout_marginEnd="8dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/r1dfm6lcmmypl"
+                            android:layout_width="14dp"
+                            android:layout_height="13dp"
+                            android:src="@drawable/star"
+                            android:layout_marginEnd="6dp"
+                            android:scaleType="fitXY" />
+
+                        <TextView
+                            android:id="@+id/vhj26k8172nlt"
+                            android:textColor="#468585"
+                            android:textSize="9dp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="5 Star" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <ScrollView
+                    android:id="@+id/r4bonh3bn2vp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="#DEF9C4"
+                    android:paddingTop="6dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <!-- Group Product 1 -->
+                        <LinearLayout
+                            android:id="@+id/r3k9vpcbz32e"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginHorizontal="20dp"
+                            android:orientation="horizontal">
+
+                            <!-- Product 1 -->
+                            <RelativeLayout
+                                android:id="@+id/rb2awj446514ba_rl"
+                                android:layout_width="132dp"
+                                android:layout_height="232dp"
+                                android:layout_marginEnd="20dp">
+
+                                <com.google.android.material.imageview.ShapeableImageView
+                                    android:id="@+id/rb2awj441he4ba"
+                                    android:layout_width="166dp"
+                                    android:layout_height="202dp"
+                                    android:src="@drawable/brokoli_fresh"
+                                    android:scaleType="fitXY" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <LinearLayout
+                                        android:id="@+id/r8urjy5mlmop62w"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:background="#468585"
+                                        android:paddingVertical="14dp"
+                                        android:paddingHorizontal="11dp"
+                                        android:layout_marginTop="128dp"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:id="@+id/r6hjw2mklb54mkwm"
+                                            android:textColor="@color/surfaceContainerLowest"
+                                            android:textSize="15sp"
+                                            android:layout_marginBottom="1dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_width="wrap_content"
+                                            android:text="Brokoli Fresh" />
+
+                                        <TextView
+                                            android:id="@+id/rb7rjfr97boy555w"
+                                            android:textColor="@color/surfaceContainerLowest"
+                                            android:textSize="10dp"
+                                            android:layout_marginBottom="4dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_width="wrap_content"
+                                            android:text="Rp 42.000 " />
+
+                                        <LinearLayout
+                                            android:id="@+id/rzijhuzxiwq74l8"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:gravity="center_vertical"
+                                            android:orientation="horizontal">
+
+                                            <LinearLayout
+                                                android:id="@+id/rzuuwi2nek1zb8e"
+                                                android:layout_width="79dp"
+                                                android:layout_height="36dp"
+                                                android:gravity="center_horizontal"
+                                                android:background="@drawable/cr5bffffff"
+                                                android:paddingVertical="10dp"
+                                                android:clickable="true"
+                                                android:focusable="true"
+                                                android:orientation="vertical">
+
+                                                <TextView
+                                                    android:id="@+id/r8lvhsm8n5d3cb"
+                                                    android:textColor="#468585"
+                                                    android:textSize="12sp"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_width="wrap_content"
+                                                    android:text="Add to Cart" />
+
+                                            </LinearLayout>
+
+                                            <View
+                                                android:layout_width="0dp"
+                                                android:layout_height="0dp"
+                                                android:layout_weight="1" />
+
+                                            <LinearLayout
+                                                android:id="@+id/rxmgm5xdxgle"
+                                                android:layout_width="32dp"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginHorizontal="5dp"
+                                                android:orientation="vertical">
+
+                                                <ImageView
+                                                    android:id="@+id/r4yhmjzy6jvm"
+                                                    android:layout_width="14dp"
+                                                    android:layout_height="14dp"
+                                                    android:layout_marginBottom="7dp"
+                                                    android:layout_marginHorizontal="6dp"
+                                                    android:src="@drawable/star"
+                                                    android:scaleType="fitXY" />
+
+                                                <TextView
+                                                    android:id="@+id/rsleffo9bu1s"
+                                                    android:textColor="@color/surfaceContainerLowest"
+                                                    android:textSize="10dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_weight="1"
+                                                    android:text="4.5/5 " />
+
+                                            </LinearLayout>
+
+                                        </LinearLayout>
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                            </RelativeLayout>
+
+                            <!-- Product 2 -->
+                            <RelativeLayout
+                                android:id="@+id/rb2awj4414ba_rl"
+                                android:layout_width="132dp"
+                                android:layout_height="232dp"
+                                android:layout_marginEnd="20dp">
+
+                                <com.google.android.material.imageview.ShapeableImageView
+                                    android:id="@+id/rb2awj4414ba"
+                                    android:layout_width="146dp"
+                                    android:layout_height="202dp"
+                                    android:src="@drawable/tomat_segar"
+                                    android:scaleType="fitXY" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <LinearLayout
+                                        android:id="@+id/r8urjy5op62w"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:background="#468585"
+                                        android:paddingVertical="14dp"
+                                        android:paddingHorizontal="11dp"
+                                        android:layout_marginTop="128dp"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:id="@+id/r6hjw2b54kwm"
+                                            android:textColor="@color/surfaceContainerLowest"
+                                            android:textSize="15sp"
+                                            android:layout_marginBottom="1dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_width="wrap_content"
+                                            android:text="Tomat Segar" />
+
+                                        <TextView
+                                            android:id="@+id/rb797boy555w"
+                                            android:textColor="@color/surfaceContainerLowest"
+                                            android:textSize="10dp"
+                                            android:layout_marginBottom="4dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_width="wrap_content"
+                                            android:text="Rp 32.000  " />
+
+                                        <LinearLayout
+                                            android:id="@+id/rzijuzxiw3q74l8"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:gravity="center_vertical"
+                                            android:orientation="horizontal">
+
+                                            <LinearLayout
+                                                android:id="@+id/rzuuwwi2nek1zb8e"
+                                                android:layout_width="79dp"
+                                                android:layout_height="36dp"
+                                                android:gravity="center_horizontal"
+                                                android:background="@drawable/cr5bffffff"
+                                                android:paddingVertical="10dp"
+                                                android:clickable="true"
+                                                android:focusable="true"
+                                                android:orientation="vertical">
+
+                                                <TextView
+                                                    android:id="@+id/r8levhsm8n5d3cb"
+                                                    android:textColor="#468585"
+                                                    android:textSize="12sp"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_width="wrap_content"
+                                                    android:text="Add to Cart" />
+
+                                            </LinearLayout>
+
+                                            <View
+                                                android:layout_width="0dp"
+                                                android:layout_height="0dp"
+                                                android:layout_weight="1" />
+
+                                            <LinearLayout
+                                                android:id="@+id/rxmgm5xvdxgle"
+                                                android:layout_width="32dp"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginHorizontal="5dp"
+                                                android:orientation="vertical">
+
+                                                <ImageView
+                                                    android:id="@+id/r4yhdmjzy6jvm"
+                                                    android:layout_width="14dp"
+                                                    android:layout_height="14dp"
+                                                    android:layout_marginBottom="7dp"
+                                                    android:layout_marginHorizontal="6dp"
+                                                    android:src="@drawable/star"
+                                                    android:scaleType="fitXY" />
+
+                                                <TextView
+                                                    android:id="@+id/rsleffdo9bu1s"
+                                                    android:textColor="@color/surfaceContainerLowest"
+                                                    android:textSize="10dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_weight="1"
+                                                    android:text="4.5/5 " />
+
+                                            </LinearLayout>
+
+                                        </LinearLayout>
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                            </RelativeLayout>
+
+                        </LinearLayout>
+
+                        <!-- Group Product 2 -->
+                        <LinearLayout
+                            android:id="@+id/r3k9hvpcbz32e"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginHorizontal="20dp"
+                            android:orientation="horizontal">
+
+                            <!-- Product 3 -->
+                            <RelativeLayout
+                                android:id="@+id/rb2awj4j46514ba_rl"
+                                android:layout_width="132dp"
+                                android:layout_height="232dp"
+                                android:layout_marginEnd="20dp">
+
+                                <com.google.android.material.imageview.ShapeableImageView
+                                    android:id="@+id/rb2awj441hhe4ba"
+                                    android:layout_width="146dp"
+                                    android:layout_height="202dp"
+                                    android:src="@drawable/alocasia"
+                                    android:scaleType="fitXY" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <LinearLayout
+                                        android:id="@+id/r8urjey5mlmop62w"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:background="#468585"
+                                        android:paddingVertical="14dp"
+                                        android:paddingHorizontal="11dp"
+                                        android:layout_marginTop="128dp"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:id="@+id/r6hjwr2mklb54mkwm"
+                                            android:textColor="@color/surfaceContainerLowest"
+                                            android:textSize="15sp"
+                                            android:layout_marginBottom="1dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_width="wrap_content"
+                                            android:text="Alocasia" />
+
+                                        <TextView
+                                            android:id="@+id/rb7rjrfr97boy555w"
+                                            android:textColor="@color/surfaceContainerLowest"
+                                            android:textSize="10dp"
+                                            android:layout_marginBottom="4dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_width="wrap_content"
+                                            android:text="Rp 25.000 " />
+
+                                        <LinearLayout
+                                            android:id="@+id/rzijuzxigwq74l8"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:gravity="center_vertical"
+                                            android:orientation="horizontal">
+
+                                            <LinearLayout
+                                                android:id="@+id/rzuuwi2tnek1zb8e"
+                                                android:layout_width="79dp"
+                                                android:layout_height="36dp"
+                                                android:gravity="center_horizontal"
+                                                android:background="@drawable/cr5bffffff"
+                                                android:paddingVertical="10dp"
+                                                android:clickable="true"
+                                                android:focusable="true"
+                                                android:orientation="vertical">
+
+                                                <TextView
+                                                    android:id="@+id/r8lvhsem8n5d3cb"
+                                                    android:textColor="#468585"
+                                                    android:textSize="12sp"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_width="wrap_content"
+                                                    android:text="Add to Cart" />
+
+                                            </LinearLayout>
+
+                                            <View
+                                                android:layout_width="0dp"
+                                                android:layout_height="0dp"
+                                                android:layout_weight="1" />
+
+                                            <LinearLayout
+                                                android:id="@+id/rxmgm5x12dxgle"
+                                                android:layout_width="32dp"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginHorizontal="5dp"
+                                                android:orientation="vertical">
+
+                                                <ImageView
+                                                    android:id="@+id/r4yhmqwjzy6jvm"
+                                                    android:layout_width="14dp"
+                                                    android:layout_height="14dp"
+                                                    android:layout_marginBottom="7dp"
+                                                    android:layout_marginHorizontal="6dp"
+                                                    android:src="@drawable/star"
+                                                    android:scaleType="fitXY" />
+
+                                                <TextView
+                                                    android:id="@+id/rsleffo9wbu1s"
+                                                    android:textColor="@color/surfaceContainerLowest"
+                                                    android:textSize="10dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_weight="1"
+                                                    android:text="4.5/5 " />
+
+                                            </LinearLayout>
+
+                                        </LinearLayout>
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                            </RelativeLayout>
+
+                            <!-- Product 4 -->
+                            <RelativeLayout
+                                android:id="@+id/rb2awj441f4ba3rl"
+                                android:layout_width="132dp"
+                                android:layout_height="232dp"
+                                android:layout_marginEnd="20dp">
+
+                                <com.google.android.material.imageview.ShapeableImageView
+                                    android:id="@+id/rb2awjh4414ba"
+                                    android:layout_width="146dp"
+                                    android:layout_height="202dp"
+                                    android:src="@drawable/bungaanggreak"
+                                    android:scaleType="fitXY" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <LinearLayout
+                                        android:id="@+id/r8urjy5ojp62w"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:background="#468585"
+                                        android:paddingVertical="14dp"
+                                        android:paddingHorizontal="11dp"
+                                        android:layout_marginTop="128dp"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:id="@+id/r6hjw2hb54kwm"
+                                            android:textColor="@color/surfaceContainerLowest"
+                                            android:textSize="15sp"
+                                            android:layout_marginBottom="1dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_width="wrap_content"
+                                            android:text="Bunga Anggrek" />
+
+                                        <TextView
+                                            android:id="@+id/rb797boyh555w"
+                                            android:textColor="@color/surfaceContainerLowest"
+                                            android:textSize="10dp"
+                                            android:layout_marginBottom="4dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_width="wrap_content"
+                                            android:text="Rp 50.000  " />
+
+                                        <LinearLayout
+                                            android:id="@+id/rzijuzxiwv3q74l8"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:gravity="center_vertical"
+                                            android:orientation="horizontal">
+
+                                            <LinearLayout
+                                                android:id="@+id/rzuuwwi2nesk1zb8e"
+                                                android:layout_width="79dp"
+                                                android:layout_height="36dp"
+                                                android:gravity="center_horizontal"
+                                                android:background="@drawable/cr5bffffff"
+                                                android:paddingVertical="10dp"
+                                                android:clickable="true"
+                                                android:focusable="true"
+                                                android:orientation="vertical">
+
+                                                <TextView
+                                                    android:id="@+id/r8levshsm8n5d3cb"
+                                                    android:textColor="#468585"
+                                                    android:textSize="12sp"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_width="wrap_content"
+                                                    android:text="Add to Cart" />
+
+                                            </LinearLayout>
+
+                                            <View
+                                                android:layout_width="0dp"
+                                                android:layout_height="0dp"
+                                                android:layout_weight="1" />
+
+                                            <LinearLayout
+                                                android:id="@+id/rxmgm5fxvdxgle"
+                                                android:layout_width="32dp"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginHorizontal="5dp"
+                                                android:orientation="vertical">
+
+                                                <ImageView
+                                                    android:id="@+id/r4yhdsmjzy6jvm"
+                                                    android:layout_width="14dp"
+                                                    android:layout_height="14dp"
+                                                    android:layout_marginBottom="7dp"
+                                                    android:layout_marginHorizontal="6dp"
+                                                    android:src="@drawable/star"
+                                                    android:scaleType="fitXY" />
+
+                                                <TextView
+                                                    android:id="@+id/rsleffdoc9bu1s"
+                                                    android:textColor="@color/surfaceContainerLowest"
+                                                    android:textSize="10dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_weight="1"
+                                                    android:text="4.5/5 " />
+
+                                            </LinearLayout>
+
+                                        </LinearLayout>
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                            </RelativeLayout>
+
+                        </LinearLayout>
+
+                        <!-- Group Product 3 -->
+                        <LinearLayout
+                            android:id="@+id/r3k9vpcbsz32e"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginHorizontal="20dp"
+                            android:orientation="horizontal">
+
+                            <!-- Product 5 -->
+                            <RelativeLayout
+                                android:id="@+id/rb2awj4465d14ba_rl"
+                                android:layout_width="132dp"
+                                android:layout_height="232dp"
+                                android:layout_marginEnd="20dp">
+
+                                <com.google.android.material.imageview.ShapeableImageView
+                                    android:id="@+id/rb2awj441che4ba"
+                                    android:layout_width="146dp"
+                                    android:layout_height="202dp"
+                                    android:src="@drawable/bonsai_serut"
+                                    android:scaleType="fitXY" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <LinearLayout
+                                        android:id="@+id/r8urjy5dmlmop62w"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:background="#468585"
+                                        android:paddingVertical="14dp"
+                                        android:paddingHorizontal="11dp"
+                                        android:layout_marginTop="128dp"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:id="@+id/r6hjw2wmklb54mkwm"
+                                            android:textColor="@color/surfaceContainerLowest"
+                                            android:textSize="15sp"
+                                            android:layout_marginBottom="1dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_width="wrap_content"
+                                            android:text="Bonsai Serut" />
+
+                                        <TextView
+                                            android:id="@+id/rb7rjfr97bdoy555w"
+                                            android:textColor="@color/surfaceContainerLowest"
+                                            android:textSize="10dp"
+                                            android:layout_marginBottom="4dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_width="wrap_content"
+                                            android:text="Rp 500.000 " />
+
+                                        <LinearLayout
+                                            android:id="@+id/rzijuzxiwq74l8"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:gravity="center_vertical"
+                                            android:orientation="horizontal">
+
+                                            <LinearLayout
+                                                android:id="@+id/rzuuwgi2nek1zb8e"
+                                                android:layout_width="79dp"
+                                                android:layout_height="36dp"
+                                                android:gravity="center_horizontal"
+                                                android:background="@drawable/cr5bffffff"
+                                                android:paddingVertical="10dp"
+                                                android:clickable="true"
+                                                android:focusable="true"
+                                                android:orientation="vertical">
+
+                                                <TextView
+                                                    android:id="@+id/r8lrvhsm8n5d3cb"
+                                                    android:textColor="#468585"
+                                                    android:textSize="12sp"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_width="wrap_content"
+                                                    android:text="Add to Cart" />
+
+                                            </LinearLayout>
+
+                                            <View
+                                                android:layout_width="0dp"
+                                                android:layout_height="0dp"
+                                                android:layout_weight="1" />
+
+                                            <LinearLayout
+                                                android:id="@+id/rxmgm5exdxgle"
+                                                android:layout_width="32dp"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginHorizontal="5dp"
+                                                android:orientation="vertical">
+
+                                                <ImageView
+                                                    android:id="@+id/r4yhmjzyv6jvm"
+                                                    android:layout_width="14dp"
+                                                    android:layout_height="14dp"
+                                                    android:layout_marginBottom="7dp"
+                                                    android:layout_marginHorizontal="6dp"
+                                                    android:src="@drawable/star"
+                                                    android:scaleType="fitXY" />
+
+                                                <TextView
+                                                    android:id="@+id/rsleffco9bu1s"
+                                                    android:textColor="@color/surfaceContainerLowest"
+                                                    android:textSize="10dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_weight="1"
+                                                    android:text="4.5/5 " />
+
+                                            </LinearLayout>
+
+                                        </LinearLayout>
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                            </RelativeLayout>
+
+                            <!-- Product 6 -->
+                            <RelativeLayout
+                                android:id="@+id/rb2awj44x14ba_rl"
+                                android:layout_width="132dp"
+                                android:layout_height="232dp"
+                                android:layout_marginEnd="20dp">
+
+                                <com.google.android.material.imageview.ShapeableImageView
+                                    android:id="@+id/rb2awj41414ba"
+                                    android:layout_width="146dp"
+                                    android:layout_height="202dp"
+                                    android:src="@drawable/orange"
+                                    android:scaleType="fitXY" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <LinearLayout
+                                        android:id="@+id/r8urjy51op62w"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:background="#468585"
+                                        android:paddingVertical="14dp"
+                                        android:paddingHorizontal="11dp"
+                                        android:layout_marginTop="128dp"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:id="@+id/r6hjww2b54kwm"
+                                            android:textColor="@color/surfaceContainerLowest"
+                                            android:textSize="15sp"
+                                            android:layout_marginBottom="1dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_width="wrap_content"
+                                            android:text="Jeruk Manis" />
+
+                                        <TextView
+                                            android:id="@+id/rb797boy5d55w"
+                                            android:textColor="@color/surfaceContainerLowest"
+                                            android:textSize="10dp"
+                                            android:layout_marginBottom="4dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_width="wrap_content"
+                                            android:text="Rp 15.000  " />
+
+                                        <LinearLayout
+                                            android:id="@+id/rzijuzxiw3dq74l8"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:gravity="center_vertical"
+                                            android:orientation="horizontal">
+
+                                            <LinearLayout
+                                                android:id="@+id/rzuuwwi2ndek1zb8e"
+                                                android:layout_width="79dp"
+                                                android:layout_height="36dp"
+                                                android:gravity="center_horizontal"
+                                                android:background="@drawable/cr5bffffff"
+                                                android:paddingVertical="10dp"
+                                                android:clickable="true"
+                                                android:focusable="true"
+                                                android:orientation="vertical">
+
+                                                <TextView
+                                                    android:id="@+id/r8levhsmd8n5d3cb"
+                                                    android:textColor="#468585"
+                                                    android:textSize="12sp"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_width="wrap_content"
+                                                    android:text="Add to Cart" />
+
+                                            </LinearLayout>
+
+                                            <View
+                                                android:layout_width="0dp"
+                                                android:layout_height="0dp"
+                                                android:layout_weight="1" />
+
+                                            <LinearLayout
+                                                android:id="@+id/rxmgm5xvdxfgle"
+                                                android:layout_width="32dp"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginHorizontal="5dp"
+                                                android:orientation="vertical">
+
+                                                <ImageView
+                                                    android:id="@+id/r4yhdmjzyr6jvm"
+                                                    android:layout_width="14dp"
+                                                    android:layout_height="14dp"
+                                                    android:layout_marginBottom="7dp"
+                                                    android:layout_marginHorizontal="6dp"
+                                                    android:src="@drawable/star"
+                                                    android:scaleType="fitXY" />
+
+                                                <TextView
+                                                    android:id="@+id/rslef4fdo9bu1s"
+                                                    android:textColor="@color/surfaceContainerLowest"
+                                                    android:textSize="10dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_weight="1"
+                                                    android:text="4.5/5 " />
+
+                                            </LinearLayout>
+
+                                        </LinearLayout>
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                            </RelativeLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </ScrollView>
+
+                <!-- Banner Icon -->
+                <LinearLayout
+                    android:id="@+id/r8t6rau2pcd9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/cr10bffffff"
+                    android:paddingHorizontal="30dp"
+                    android:layout_marginHorizontal="15dp"
+                    android:layout_marginBottom="50dp"
+                    android:orientation="horizontal">
+
+                    <!-- Banner Icon: Index Home -->
+                    <ImageView
+                        android:id="@+id/r2a74vr9uq"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:src="@drawable/home"
+                        android:scaleType="fitXY" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+                    <!-- Banner Icon: E-mail/Chat -->
+                    <ImageView
+                        android:id="@+id/r7f34vr9e"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:src="@drawable/email"
+                        android:scaleType="fitXY" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+                    <!-- Banner Icon: Love/Heart -->
+                    <ImageView
+                        android:id="@+id/r2a7f34gbvr9uq"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:src="@drawable/heart"
+                        android:scaleType="fitXY" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+                    <!-- Banner Icon: Basket Product -->
+                    <ImageView
+                        android:id="@+id/r2a7f34vdsr9e"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:src="@drawable/basket"
+                        android:scaleType="fitXY" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

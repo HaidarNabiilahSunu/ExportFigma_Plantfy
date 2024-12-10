@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Page_Search">
+
+    <!-- Root LinearLayout -->
+    <LinearLayout
+        android:background="@color/surfaceContainerLowest"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- ScrollView for content -->
+        <ScrollView
+            android:id="@+id/rknqma0cs1q"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#DEF9C4"
+            android:paddingTop="69dp">
+
+            <!-- Main LinearLayout inside ScrollView -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <!-- Header User Information -->
+                <LinearLayout
+                    android:id="@+id/rsrzqp99h16a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="14dp"
+                    android:layout_marginHorizontal="53dp"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:id="@+id/rk124c1m256"
+                        android:layout_width="33dp"
+                        android:layout_height="33dp"
+                        android:layout_marginEnd="9dp"
+                        android:src="@drawable/userface"
+                        android:scaleType="fitXY" />
+
+                    <TextView
+                        android:id="@+id/r8frsizm82l9"
+                        android:textColor="#468585"
+                        android:textSize="13sp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Zahra’s Account" />
+
+                    <LinearLayout
+                        android:id="@+id/rxa8bhsaekol"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/r1dfm6lcmypl"
+                        android:layout_width="14dp"
+                        android:layout_height="16dp"
+                        android:src="@drawable/bell"
+                        android:scaleType="fitXY" />
+
+                </LinearLayout>
+
+                <!-- Search Bar -->
+                <LinearLayout
+                    android:id="@+id/rf8xkco8jqq5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/cr5bffffff"
+                    android:paddingVertical="13dp"
+                    android:paddingHorizontal="12dp"
+                    android:layout_marginBottom="14dp"
+                    android:layout_marginHorizontal="50dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/rlr9yjbyd0c"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_marginEnd="13dp"
+                        android:src="@drawable/search"
+                        android:scaleType="fitXY" />
+
+                    <EditText
+                        android:id="@+id/rq1vkzfc6uqm"
+                        android:textColor="#468585"
+                        android:textSize="@dimen/fontsize_label_small"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/edit_text_background"
+                        android:hint="Search Your Plant" />
+
+                </LinearLayout>
+
+                <!-- Title - History -->
+                <TextView
+                    android:id="@+id/ro1e5ucljyss"
+                    android:textColor="#468585"
+                    android:textSize="20sp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginHorizontal="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="History" />
+
+                <!-- History Items -->
+                <LinearLayout
+                    android:id="@+id/r7m4jvsjtfhp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/cr10bffffff"
+                    android:paddingVertical="17dp"
+                    android:paddingHorizontal="40dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginHorizontal="50dp"
+                    android:orientation="vertical">
+
+                    <!-- History Item 1 -->
+                    <LinearLayout
+                        android:id="@+id/r5xr3h4s44oo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:layout_marginBottom="5dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/re1frwhmmleh"
+                            android:textColor="@color/shadow"
+                            android:textSize="9sp"
+                            android:layout_marginEnd="4dp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:text="Brokoli Fresh Harga Murah" />
+
+                        <TextView
+                            android:id="@+id/rou4sxk4kz7"
+                            android:textColor="#468585"
+                            android:textSize="6sp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="Hapus" />
+
+                    </LinearLayout>
+
+                    <!-- Divider -->
+                    <LinearLayout
+                        android:id="@+id/rf8qs6zbduzk"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#468585"
+                        android:layout_marginBottom="4dp"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+
+                    <!-- History Item 2 -->
+                    <LinearLayout
+                        android:id="@+id/r6fl3bqbie1a"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:layout_marginBottom="6dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/rvwz7puzpszn"
+                            android:textColor="@color/shadow"
+                            android:textSize="9sp"
+                            android:layout_marginEnd="4dp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:text="Bonsai Serut Harga Murah" />
+
+                        <TextView
+                            android:id="@+id/r8ov89ijnxrk"
+                            android:textColor="#468585"
+                            android:textSize="6sp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="Hapus" />
+
+                    </LinearLayout>
+
+                    <!-- Divider -->
+                    <LinearLayout
+                        android:id="@+id/r9jq3nhvocxp"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#468585"
+                        android:layout_marginBottom="4dp"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+
+                    <!-- History Item 3 -->
+                    <LinearLayout
+                        android:id="@+id/r09tplfi4pnah"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:layout_marginBottom="6dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/ruggjzvmamk"
+                            android:textColor="@color/shadow"
+                            android:textSize="9sp"
+                            android:layout_marginEnd="4dp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:text="Anggrek Harga Murah" />
+
+                        <TextView
+                            android:id="@+id/r7xftryprt6r"
+                            android:textColor="#468585"
+                            android:textSize="6sp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="Hapus" />
+
+                    </LinearLayout>
+
+                    <!-- Divider -->
+                    <LinearLayout
+                        android:id="@+id/rffl7de48uej"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#468585"
+                        android:layout_marginBottom="5dp"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+
+                    <!-- History Item 4 -->
+                    <LinearLayout
+                        android:id="@+id/r2meimlbaxvs"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:layout_marginBottom="5dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/rb9v9yb25mgj"
+                            android:textColor="@color/shadow"
+                            android:textSize="9sp"
+                            android:layout_marginEnd="4dp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:text="Lavender Harga Murah" />
+
+                        <TextView
+                            android:id="@+id/rg64gllz112o"
+                            android:textColor="#468585"
+                            android:textSize="6sp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="Hapus" />
+
+                    </LinearLayout>
+
+                    <!-- Divider -->
+                    <LinearLayout
+                        android:id="@+id/rk7tw0laaum"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#468585"
+                        android:layout_marginBottom="4dp"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+
+                    <!-- History Item 5 -->
+                    <LinearLayout
+                        android:id="@+id/r7otdloyqeym"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:layout_marginBottom="6dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/r4t3vkib12ah"
+                            android:textColor="@color/shadow"
+                            android:textSize="9sp"
+                            android:layout_marginEnd="4dp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:text="Appel Segar Harga Murah" />
+
+                        <TextView
+                            android:id="@+id/rrqrp1i8rly"
+                            android:textColor="#468585"
+                            android:textSize="6sp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="Hapus" />
+
+                    </LinearLayout>
+
+                    <!-- Divider -->
+                    <LinearLayout
+                        android:id="@+id/rm80spn7q1z"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#468585"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <!-- Title - Rekomendasi -->
+                <TextView
+                    android:id="@+id/r8vz3ldrce3p"
+                    android:textColor="#468585"
+                    android:textSize="20sp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginHorizontal="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Rekomendasi" />
+
+                <!-- Recommended Items -->
+                <LinearLayout
+                    android:id="@+id/rzk7ugv3ipqb"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/cr10bffffff"
+                    android:paddingVertical="27dp"
+                    android:paddingHorizontal="21dp"
+                    android:layout_marginBottom="65dp"
+                    android:layout_marginHorizontal="50dp"
+                    android:orientation="vertical">
+
+                    <!-- Recommendation Row 1 -->
+                    <LinearLayout
+                        android:id="@+id/r6zh6re68etk"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:layout_marginBottom="20dp"
+                        android:orientation="horizontal">
+
+                        <!-- Image No.1 -->
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:id="@+id/r4we9qfn5or"
+                            app:shapeAppearanceOverlay="@style/cr10"
+                            android:layout_width="110dp"
+                            android:layout_height="110dp"
+                            android:src="@drawable/salada"
+                            android:scaleType="fitXY" />
+
+                        <View
+                            android:layout_width="3dp"
+                            android:layout_height="1dp"
+                            android:layout_weight="1" />
+
+                        <!-- Image No.2 -->
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:id="@+id/rgcdwe60v2uj"
+                            app:shapeAppearanceOverlay="@style/cr10"
+                            android:layout_width="110dp"
+                            android:layout_height="110dp"
+                            android:src="@drawable/bungaanggreak"
+                            android:scaleType="fitXY" />
+
+                    </LinearLayout>
+
+                    <!-- Recommendation Row 2 -->
+                    <LinearLayout
+                        android:id="@+id/rves9ezjnhes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <!-- Image No.3 -->
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:id="@+id/r01xm3e2kfm3"
+                            app:shapeAppearanceOverlay="@style/cr10"
+                            android:layout_width="110dp"
+                            android:layout_height="110dp"
+                            android:src="@drawable/alocasia"
+                            android:scaleType="fitXY" />
+
+                        <View
+                            android:layout_width="3dp"
+                            android:layout_height="1dp"
+                            android:layout_weight="1" />
+
+                        <!-- Image No.4 -->
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:id="@+id/re8sy6z3ftsg"
+                            app:shapeAppearanceOverlay="@style/cr10"
+                            android:layout_width="110dp"
+                            android:layout_height="110dp"
+                            android:src="@drawable/miniflower"
+                            android:scaleType="fitXY" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <!-- Banner Icon -->
+                <LinearLayout
+                    android:id="@+id/r8t6rau2pcd9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/cr10bffffff"
+                    android:paddingHorizontal="30dp"
+                    android:layout_marginHorizontal="50dp"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:orientation="horizontal">
+
+                    <!-- Banner Icon: Index Home -->
+                    <ImageView
+                        android:id="@+id/r2a74vr9uq"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:src="@drawable/home"
+                        android:scaleType="fitXY" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+                    <!-- Banner Icon: E-mail/Chat -->
+                    <ImageView
+                        android:id="@+id/r7f34vr9e"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:src="@drawable/email"
+                        android:scaleType="fitXY" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+                    <!-- Banner Icon: Love/Heart -->
+                    <ImageView
+                        android:id="@+id/r2a7f34gbvr9uq"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:src="@drawable/heart"
+                        android:scaleType="fitXY" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+                    <!-- Banner Icon: Basket Product -->
+                    <ImageView
+                        android:id="@+id/r2a7f34vdsr9e"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:src="@drawable/basket"
+                        android:scaleType="fitXY" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

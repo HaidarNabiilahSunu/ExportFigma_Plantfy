@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Page_Chat">
+
+    <!-- Root LinearLayout -->
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/surfaceContainerLowest"
+        android:orientation="vertical">
+
+        <!-- LinearLayout for content -->
+        <LinearLayout
+            android:id="@+id/r1ap8bc0igwh"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:background="#DEF9C4"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:paddingHorizontal="35dp"
+            android:paddingTop="36dp"
+            app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
+            app:layout_constraintTop_toTopOf="@+id/linearLayout">
+
+            <!-- Main LinearLayout inside ScrollView -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <!-- Header Section -->
+                <LinearLayout
+                    android:id="@+id/rqr9o7lshi2l"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="3dp"
+                    android:layout_marginBottom="15dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/rtsalamhn2ef"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginEnd="109dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/arrow" />
+
+                    <TextView
+                        android:id="@+id/rhqoh6itg62e"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:text="Chat"
+                        android:textColor="#468585"
+                        android:textSize="@dimen/fontsize_headline_small" />
+
+                    <LinearLayout
+                        android:id="@+id/ru9ky0skjnzn"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/rtsalamhn92ef"
+                        android:layout_width="26dp"
+                        android:layout_height="26dp"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginEnd="1dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/menu" />
+
+                </LinearLayout>
+
+                <!-- Chat Content Section -->
+                <ScrollView
+                    android:id="@+id/r4bonh3bn2vp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="#DEF9C4"
+                    android:layout_marginBottom="14dp"
+                    android:paddingTop="6dp">
+
+                    <LinearLayout
+                        android:id="@+id/rtivdq8ewb8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cr10b468585"
+                        android:paddingVertical="24dp"
+                        android:layout_marginBottom="14dp"
+                        android:layout_marginHorizontal="10dp"
+                        android:orientation="vertical">
+
+                        <!-- Chat Header -->
+                        <LinearLayout
+                            android:id="@+id/retwjvhbdyz4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:background="@drawable/cr20bfefefe"
+                            android:paddingVertical="19dp"
+                            android:paddingHorizontal="9dp"
+                            android:layout_marginBottom="13dp"
+                            android:layout_marginHorizontal="20dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/rvxspd2g6xwi"
+                                app:shapeAppearanceOverlay="@style/cr16"
+                                android:layout_width="42dp"
+                                android:layout_height="42dp"
+                                android:layout_marginEnd="13dp"
+                                android:src="@drawable/avatar"
+                                android:scaleType="fitXY" />
+
+                            <LinearLayout
+                                android:id="@+id/r4tzjqctq1ds"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/r4bfq88yvtdo"
+                                    android:textColor="#1E1E1E"
+                                    android:textSize="20sp"
+                                    android:layout_marginBottom="2dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="match_parent"
+                                    android:layout_weight="1"
+                                    android:text="Plantify - Plant Shop " />
+
+                                <TextView
+                                    android:id="@+id/rue2gnu0x49t"
+                                    android:textColor="#1E1E1E"
+                                    android:textSize="10sp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="wrap_content"
+                                    android:text="Aktif 30 Menit lalu" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <!-- Chat Messages -->
+                        <LinearLayout
+                            android:id="@+id/r6c4u966hu3a"
+                            android:layout_width="63dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:background="@drawable/cr20bfefefe"
+                            android:paddingVertical="8dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginHorizontal="110dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/rh2hnizyccnf"
+                                android:textColor="#1E1E1E"
+                                android:textSize="10sp"
+                                android:layout_height="wrap_content"
+                                android:layout_width="wrap_content"
+                                android:text="Hari Ini" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/r4tzjqactq1ds"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_marginBottom="6dp"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:id="@+id/ru9ky0skjasnzn"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:layout_marginEnd="12dp"
+                                android:orientation="vertical">
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/rgd9u2xa90l5"
+                                android:layout_width="210dp"
+                                android:layout_height="74dp"
+                                android:background="@drawable/cr20bwaerds"
+                                android:paddingVertical="13dp"
+                                android:paddingHorizontal="24dp"
+                                android:layout_marginHorizontal="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/rj40l8riz88"
+                                    android:textColor="#1E1E1E"
+                                    android:textSize="12sp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="match_parent"
+                                    android:layout_weight="1"
+                                    android:text="Maaf saya ingin bertanya, apakah aplikasi ini menjual berbagai tanaman ... ?" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/r4tzjqactq11ds"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_marginBottom="6dp"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:id="@+id/ru9ky02skjasnzn"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:layout_marginEnd="12dp"
+                                android:orientation="vertical">
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/rgd9u2xra90l5"
+                                android:layout_width="210dp"
+                                android:layout_height="56dp"
+                                android:background="@drawable/cr20bwaerds"
+                                android:paddingVertical="13dp"
+                                android:paddingHorizontal="24dp"
+                                android:layout_marginHorizontal="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/rj40l8sriz88"
+                                    android:textColor="#1E1E1E"
+                                    android:textSize="12sp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="match_parent"
+                                    android:layout_weight="1"
+                                    android:text="Saya ingin membeli beberapa bonsai untuk kakek saya" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/r4tzjqactqr1ds"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_marginBottom="6dp"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:id="@+id/ru9ky0sk9jasnzn"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/rsdj79el18u"
+                                android:textColor="#1E1E1E"
+                                android:textSize="12sp"
+                                android:layout_marginStart="222dp"
+                                android:layout_marginHorizontal="128dp"
+                                android:layout_height="wrap_content"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:text="02:59 PM" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/r4tzjqactq1e1ds"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_marginBottom="6dp"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:id="@+id/rgd9u22xra90l5"
+                                android:layout_width="210dp"
+                                android:layout_height="76dp"
+                                android:background="@drawable/cr20bwaerds"
+                                android:paddingVertical="13dp"
+                                android:paddingHorizontal="24dp"
+                                android:layout_marginHorizontal="10dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/rj40el8sriz88"
+                                    android:textColor="#1E1E1E"
+                                    android:textSize="12sp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="match_parent"
+                                    android:layout_weight="1"
+                                    android:text="Tentu aplikasi ini menjual berbagai bonsai yang anda inginkan" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/r4tzjqacftqr1ds"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_marginBottom="80dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/rsdej79el18u"
+                                android:textColor="#1E1E1E"
+                                android:textSize="12sp"
+                                android:layout_marginStart="12dp"
+                                android:layout_marginHorizontal="128dp"
+                                android:layout_height="wrap_content"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:text="03:00 PM" />
+
+                        </LinearLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/rz0az9idivnm"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/cr5bffffff"
+                            android:layout_marginHorizontal="0dp"
+                            android:clipChildren="false"
+                            android:clipToPadding="false">
+
+                        </RelativeLayout>
+
+                        <!-- Chat Input Field -->
+                        <LinearLayout
+                            android:id="@+id/r4tzjqac4tq11ds"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_marginBottom="6dp"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:id="@+id/ru9ky02skyjasnzn"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:paddingVertical="1dp"
+                                android:paddingHorizontal="7dp"
+                                android:background="@drawable/cr20bfefefe"
+                                android:layout_marginHorizontal="10dp"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/rtsalamhn92fef"
+                                    android:layout_width="26dp"
+                                    android:layout_height="26dp"
+                                    android:layout_marginTop="6dp"
+                                    android:layout_marginEnd="1dp"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/plus" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/rgd9u2xran90l5"
+                                android:layout_width="210dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/cr20bfefefe"
+                                android:paddingVertical="1dp"
+                                android:paddingHorizontal="14dp"
+                                android:layout_marginHorizontal="10dp"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal">
+
+                                <EditText
+                                    android:id="@+id/rj40l8fsriz88"
+                                    android:textColor="#468585"
+                                    android:textSize="10sp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="match_parent"
+                                    android:layout_weight="1"
+                                    android:hint="write a message ..."
+                                    android:background="@drawable/edit_text_background"/>
+
+                                <ImageView
+                                    android:id="@+id/rtsalmhn92fef"
+                                    android:layout_width="26dp"
+                                    android:layout_height="26dp"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/send" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </ScrollView>
+
+                <!-- Banner Icon -->
+                <LinearLayout
+                    android:id="@+id/r8t6rau2pcd9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/cr10bffffff"
+                    android:paddingHorizontal="30dp"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginBottom="50dp"
+                    android:orientation="horizontal">
+
+                    <!-- Banner Icon: Index Home -->
+                    <ImageView
+                        android:id="@+id/r2a74vr9uq"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:src="@drawable/home"
+                        android:scaleType="fitXY" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+                    <!-- Banner Icon: E-mail/Chat -->
+                    <ImageView
+                        android:id="@+id/r7f34vr9e"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:src="@drawable/email"
+                        android:scaleType="fitXY" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+                    <!-- Banner Icon: Love/Heart -->
+                    <ImageView
+                        android:id="@+id/r2a7f34gbvr9uq"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:src="@drawable/heart"
+                        android:scaleType="fitXY" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+                    <!-- Banner Icon: Basket Product -->
+                    <ImageView
+                        android:id="@+id/r2a7f34vdsr9e"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:src="@drawable/basket"
+                        android:scaleType="fitXY" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

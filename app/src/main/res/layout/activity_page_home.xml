@@ -1,0 +1,801 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Page_Home">
+
+    <!-- Root LinearLayout -->
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="@color/surfaceContainerLowest"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- ScrollView for content -->
+        <ScrollView
+            android:id="@+id/r4bonh3bn2vp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#DEF9C4"
+            android:paddingTop="69dp"
+            android:paddingLeft="50dp">
+
+            <!-- Main LinearLayout inside ScrollView -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <!-- Header User Information -->
+                <LinearLayout
+                    android:id="@+id/rj7jp6hqpnz"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="14dp"
+                    android:layout_marginEnd="65dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/rswul22ofoog"
+                        android:layout_width="33dp"
+                        android:layout_height="33dp"
+                        android:layout_marginEnd="9dp"
+                        android:src="@drawable/userface"
+                        android:scaleType="fitXY" />
+
+                    <TextView
+                        android:id="@+id/rpilw771x8f9"
+                        android:textColor="#468585"
+                        android:textSize="13sp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Zahra’s Account" />
+
+                    <LinearLayout
+                        android:id="@+id/r33oy6ffinyk"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/rpgc37nlfuka"
+                        android:layout_width="14dp"
+                        android:layout_height="16dp"
+                        android:src="@drawable/bell"
+                        android:scaleType="fitXY" />
+
+                </LinearLayout>
+
+                <!-- Search Bar -->
+                <LinearLayout
+                    android:id="@+id/romykmr6hug7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/cr5bffffff"
+                    android:padding="12dp"
+                    android:layout_marginBottom="9dp"
+                    android:layout_marginEnd="50dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/rak5djdv1udk"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_marginEnd="13dp"
+                        android:src="@drawable/search"
+                        android:scaleType="fitXY" />
+
+                    <EditText
+                        android:id="@+id/rrbj22zc2y1"
+                        android:textColor="#468585"
+                        android:textSize="@dimen/fontsize_label_small"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/edit_text_background"
+                        android:hint="Search Your Plant" />
+
+                </LinearLayout>
+
+                <!-- Promo Banner -->
+                <RelativeLayout
+                    android:id="@+id/r253bnrnin9t_rl"
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:layout_marginBottom="6dp"
+                    android:layout_marginEnd="50dp">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/r253bnrnin9t"
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:src="@drawable/plantdiskon"
+                        android:scaleType="fitXY"
+                        app:shapeAppearanceOverlay="@style/cr10" />
+
+                    <LinearLayout
+                        android:paddingVertical="17dp"
+                        android:paddingHorizontal="15dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/r53aa6hgj2wh"
+                            android:textColor="#468585"
+                            android:textSize="20sp"
+                            android:layout_marginBottom="1dp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="Spesial Diskon " />
+
+                        <TextView
+                            android:id="@+id/re816l0o63rt"
+                            android:textColor="#468585"
+                            android:textSize="@dimen/fontsize_headline_large"
+                            android:layout_marginBottom="1.5dp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="45%" />
+
+                        <LinearLayout
+                            android:id="@+id/r3ulg7lgv40j"
+                            android:layout_width="116dp"
+                            android:layout_height="30dp"
+                            android:gravity="center_horizontal"
+                            android:background="@drawable/cr5bffffff"
+                            android:paddingVertical="9dp">
+
+                            <TextView
+                                android:id="@+id/rz8gx42oqjd"
+                                android:textColor="#50B498"
+                                android:textSize="10sp"
+                                android:layout_height="12dp"
+                                android:layout_width="wrap_content"
+                                android:text="Claim Diskon" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <!-- Text Category -->
+                <TextView
+                    android:id="@+id/rfo0gm2zftc"
+                    android:textColor="#34A853"
+                    android:textSize="@dimen/fontsize_body_large"
+                    android:layout_marginBottom="9dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Category" />
+
+                <!-- Scroll Horizontal View -->
+                <HorizontalScrollView
+                    android:id="@+id/r2zyeilfgnil"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginEnd="50dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <!-- Item 1: Garden -->
+                        <LinearLayout
+                            android:id="@+id/r8b740bgjdqj"
+                            android:layout_width="91dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:background="@drawable/s468585sw1cr10bffffff"
+                            android:paddingVertical="11dp"
+                            android:layout_marginEnd="17dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/rb26817hnltd"
+                                android:textColor="#468585"
+                                android:textSize="@dimen/fontsize_body_small"
+                                android:layout_height="wrap_content"
+                                android:layout_width="wrap_content"
+                                android:text="Garden" />
+
+                        </LinearLayout>
+
+                        <!-- Item 2: Indoor -->
+                        <LinearLayout
+                            android:id="@+id/rcsvszzq766k"
+                            android:layout_width="91dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:background="@drawable/s468585sw1cr10bffffff"
+                            android:paddingVertical="11dp"
+                            android:layout_marginEnd="17dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/rl0m58zdvhcf"
+                                android:textColor="#468585"
+                                android:textSize="@dimen/fontsize_body_small"
+                                android:layout_height="wrap_content"
+                                android:layout_width="wrap_content"
+                                android:text="Indoor" />
+
+                        </LinearLayout>
+
+                        <!-- Item 3: Outdoor -->
+                        <LinearLayout
+                            android:id="@+id/rsuaqigey4ab"
+                            android:layout_width="91dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:background="@drawable/s468585sw1cr10bffffff"
+                            android:paddingVertical="11dp"
+                            android:layout_marginEnd="17dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/rme4qp8xbkq"
+                                android:textColor="#468585"
+                                android:textSize="@dimen/fontsize_body_small"
+                                android:layout_height="wrap_content"
+                                android:layout_width="wrap_content"
+                                android:text="Outdoor" />
+
+                        </LinearLayout>
+
+                        <!-- Item 4: Herbal -->
+                        <LinearLayout
+                            android:id="@+id/rbtg9weoqwkt"
+                            android:layout_width="91dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:background="@drawable/s468585sw1cr10bffffff"
+                            android:paddingVertical="11dp"
+                            android:paddingHorizontal="17dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/r56l8qbyeji6"
+                                android:textColor="#468585"
+                                android:textSize="@dimen/fontsize_body_small"
+                                android:layout_height="wrap_content"
+                                android:layout_width="wrap_content"
+                                android:text="Herbal" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+                <!-- Title for Most Popular Plant -->
+                <TextView
+                    android:id="@+id/rn9dgtinqlhp"
+                    android:textColor="#34A853"
+                    android:textSize="20sp"
+                    android:layout_marginBottom="9dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Most Popular Plant" />
+
+                <!-- Container for Plant Item -->
+                <LinearLayout
+                    android:id="@+id/ry7ayuimx7wg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/s468585sw1cr10bffffff"
+                    android:paddingVertical="10dp"
+                    android:paddingHorizontal="9dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginEnd="50dp"
+                    android:orientation="horizontal">
+
+                    <!-- Plant Image -->
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/rc80sh72kszm"
+                        app:shapeAppearanceOverlay="@style/cr10"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginEnd="10dp"
+                        android:src="@drawable/salada"
+                        android:scaleType="fitXY" />
+
+                    <!-- Plant Details -->
+                    <LinearLayout
+                        android:id="@+id/rkndx5liybi"
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="27dp"
+                        android:orientation="vertical">
+
+                        <!-- Plant Name -->
+                        <TextView
+                            android:id="@+id/ri4fiwbr6ujk"
+                            android:textColor="@color/shadow"
+                            android:textSize="@dimen/fontsize_body_large"
+                            android:layout_marginBottom="4dp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:text="Sayur Selada" />
+
+                        <!-- Plant Price -->
+                        <TextView
+                            android:id="@+id/rtmyvdk6pa5k"
+                            android:textColor="@color/shadow"
+                            android:textSize="@dimen/fontsize_label_small"
+                            android:layout_marginBottom="11dp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:text="Rp 74.000 - Per Ikat" />
+
+                        <!-- Categories ( Herbal, Food ) -->
+                        <LinearLayout
+                            android:id="@+id/rqg6tu9h3wfe"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <!-- Herbal Category -->
+                            <LinearLayout
+                                android:id="@+id/r1mlmh0hnwcq"
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal"
+                                android:background="@drawable/cr10bdef9c4"
+                                android:paddingVertical="4dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/rvpa0q4boeo"
+                                    android:textColor="#468585"
+                                    android:textSize="8sp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="wrap_content"
+                                    android:text="Herbal" />
+
+                            </LinearLayout>
+
+                            <!-- Spacer -->
+                            <View
+                                android:layout_width="0dp"
+                                android:layout_height="0dp"
+                                android:layout_weight="1" />
+
+                            <!-- Food Category -->
+                            <LinearLayout
+                                android:id="@+id/rmepy0us8mj"
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal"
+                                android:background="@drawable/cr10bdef9c4"
+                                android:paddingVertical="4dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/rqsxbi2a1ud"
+                                    android:textColor="#468585"
+                                    android:textSize="8sp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="wrap_content"
+                                    android:text="Food" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <!-- Rating Section -->
+                    <LinearLayout
+                        android:id="@+id/r4l2auhhfegj"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <!-- Star Icon -->
+                        <ImageView
+                            android:id="@+id/rm4hyfjvw4l"
+                            android:layout_width="14dp"
+                            android:layout_height="14dp"
+                            android:layout_marginBottom="7dp"
+                            android:layout_marginHorizontal="1dp"
+                            android:src="@drawable/star"
+                            android:scaleType="fitXY" />
+
+                        <!-- Rating Text -->
+                        <TextView
+                            android:id="@+id/rkbezid1i3m"
+                            android:textColor="@color/shadow"
+                            android:textSize="8sp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:text="4.5/5" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <!-- Container for Plant Item, No.2 -->
+                <LinearLayout
+                    android:id="@+id/rltya5vkq0t"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/s468585sw1cr10bffffff"
+                    android:paddingVertical="11dp"
+                    android:paddingHorizontal="9dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginEnd="50dp"
+                    android:orientation="horizontal">
+
+                    <!-- Plant Image, No.2 -->
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/rned9z4dcu0s"
+                        app:shapeAppearanceOverlay="@style/cr10"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginEnd="10dp"
+                        android:src="@drawable/bungaanggreak"
+                        android:scaleType="fitXY" />
+
+                    <!-- Plant Details, No.2 -->
+                    <LinearLayout
+                        android:id="@+id/rkx797h8ieyk"
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="27dp"
+                        android:orientation="vertical">
+
+                        <!-- Plant Name, No.2 -->
+                        <TextView
+                            android:id="@+id/rm7mtz7gk7h"
+                            android:textColor="@color/shadow"
+                            android:textSize="@dimen/fontsize_body_large"
+                            android:layout_marginBottom="4dp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:text="Bunga Anggrek" />
+
+                        <!-- Plant Price, No.2 -->
+                        <TextView
+                            android:id="@+id/r4qw6vzqtyiw"
+                            android:textColor="@color/shadow"
+                            android:textSize="@dimen/fontsize_label_small"
+                            android:layout_marginBottom="11dp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:text="Rp 50.000 - Per pot" />
+
+                        <!-- Categories ( Bunga, Indoor ) -->
+                        <LinearLayout
+                            android:id="@+id/rfct4vmww1ii"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <!-- Bunga Category -->
+                            <LinearLayout
+                                android:id="@+id/rnmcj1dd6s5k"
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal"
+                                android:background="@drawable/cr10bdef9c4"
+                                android:paddingVertical="4dp"
+                                android:orientation="vertical">
+
+
+                                <TextView
+                                    android:id="@+id/r1au2bm1grtm"
+                                    android:textColor="#468585"
+                                    android:textSize="8sp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="wrap_content"
+                                    android:text="Bunga" />
+
+                            </LinearLayout>
+
+                            <!-- Spacer, No.2 -->
+                            <View
+                                android:layout_width="0dp"
+                                android:layout_height="0dp"
+                                android:layout_weight="1" />
+
+                            <!-- Indoor Category -->
+                            <LinearLayout
+                                android:id="@+id/rtvof53gtem8"
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal"
+                                android:background="@drawable/cr10bdef9c4"
+                                android:paddingVertical="4dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/rtusyf5llrdi"
+                                    android:textColor="#468585"
+                                    android:textSize="8sp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="wrap_content"
+                                    android:text="Indoor" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <!-- Rating Section, No.2 -->
+                    <LinearLayout
+                        android:id="@+id/rqo2g8hitp8e"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <!-- Star Icon, No.2 -->
+                        <ImageView
+                            android:id="@+id/r0hv7j0bz0jh4"
+                            android:layout_width="14dp"
+                            android:layout_height="14dp"
+                            android:layout_marginBottom="7dp"
+                            android:layout_marginHorizontal="1dp"
+                            android:src="@drawable/star"
+                            android:scaleType="fitXY" />
+
+                        <!-- Rating Text, No.2 -->
+                        <TextView
+                            android:id="@+id/r9k3aqbe8orp"
+                            android:textColor="@color/shadow"
+                            android:textSize="8sp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:text="4.8/5" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <!-- Container for Plant Item, No.3 -->
+                <LinearLayout
+                    android:id="@+id/rih2rjmztej"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/s468585sw1cr10bffffff"
+                    android:padding="9dp"
+                    android:layout_marginBottom="7dp"
+                    android:layout_marginEnd="50dp"
+                    android:orientation="horizontal">
+
+                    <!-- Plant Image, No.3 -->
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/rxl4e14xa95"
+                        app:shapeAppearanceOverlay="@style/cr10"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginEnd="10dp"
+                        android:src="@drawable/alocasia"
+                        android:scaleType="fitXY" />
+
+                    <!-- Plant Details, No.3 -->
+                    <LinearLayout
+                        android:id="@+id/rpp5tyhvjw7o"
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="27dp"
+                        android:orientation="vertical">
+
+                        <!-- Plant Name, No.3 -->
+                        <TextView
+                            android:id="@+id/rilcvxt8lmg"
+                            android:textColor="@color/shadow"
+                            android:textSize="@dimen/fontsize_body_large"
+                            android:layout_marginBottom="4dp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:text="Alocasia " />
+
+                        <!-- Plant Price, No.3 -->
+                        <TextView
+                            android:id="@+id/rqce45c0i7ss"
+                            android:textColor="@color/shadow"
+                            android:textSize="@dimen/fontsize_label_small"
+                            android:layout_marginBottom="11dp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:text="Rp 25.000 - Per Pot" />
+
+                        <!-- Categories ( Hias, Outdoor ) -->
+                        <LinearLayout
+                            android:id="@+id/rd4g138u5q5a"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <!-- Hias Category -->
+                            <LinearLayout
+                                android:id="@+id/rm905osmk3xs"
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal"
+                                android:background="@drawable/cr10bdef9c4"
+                                android:paddingVertical="4dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/r3aglghg11lu"
+                                    android:textColor="#468585"
+                                    android:textSize="8sp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="wrap_content"
+                                    android:text="Hias" />
+
+                            </LinearLayout>
+
+                            <!-- Spacer, No.3 -->
+                            <View
+                                android:layout_width="0dp"
+                                android:layout_height="0dp"
+                                android:layout_weight="1" />
+
+                            <!-- Outdoor Category -->
+                            <LinearLayout
+                                android:id="@+id/riogggbqugip"
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal"
+                                android:background="@drawable/cr10bdef9c4"
+                                android:paddingVertical="4dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/rqu86qxozjsd"
+                                    android:textColor="#468585"
+                                    android:textSize="8sp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="wrap_content"
+                                    android:text="Outdoor" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <!-- Rating Section, No.3 -->
+                    <LinearLayout
+                        android:id="@+id/rz3fop5ymept"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <!-- Star Icon, No.3 -->
+                        <ImageView
+                            android:id="@+id/rb2dq4x8hi2u"
+                            android:layout_width="14dp"
+                            android:layout_height="14dp"
+                            android:layout_marginBottom="7dp"
+                            android:layout_marginHorizontal="1dp"
+                            android:src="@drawable/star"
+                            android:scaleType="fitXY" />
+
+                        <!-- Rating Text, No.3 -->
+                        <TextView
+                            android:id="@+id/rr26wrijqben"
+                            android:textColor="@color/shadow"
+                            android:textSize="8sp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:text="4.9/5" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <!-- Banner Icon -->
+                <LinearLayout
+                    android:id="@+id/r8t6rau2pcd9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/cr10bffffff"
+                    android:paddingHorizontal="30dp"
+                    android:layout_marginEnd="50dp"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:layout_marginBottom="16dp"
+                    android:orientation="horizontal">
+
+                    <!-- Banner Icon: Index Home -->
+                    <ImageView
+                        android:id="@+id/r2a74vr9uq"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:src="@drawable/home"
+                        android:scaleType="fitXY" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+                    <!-- Banner Icon: E-mail/Chat -->
+                    <ImageView
+                        android:id="@+id/r7f34vr9e"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:src="@drawable/email"
+                        android:scaleType="fitXY" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+                    <!-- Banner Icon: Love/Heart -->
+                    <ImageView
+                        android:id="@+id/r2a7f34gbvr9uq"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:src="@drawable/heart"
+                        android:scaleType="fitXY" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+                    <!-- Banner Icon: Basket Product -->
+                    <ImageView
+                        android:id="@+id/r2a7f34vdsr9e"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:src="@drawable/basket"
+                        android:scaleType="fitXY" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
