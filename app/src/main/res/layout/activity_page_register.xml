@@ -90,6 +90,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:hint="Email"
+                        android:inputType="textEmailAddress"
                         android:background="@drawable/edit_text_background"
                         android:textColor="#468585"
                         android:textSize="12sp" />
@@ -121,6 +122,7 @@
                         android:id="@+id/rkgoudy84rn"
                         android:textColor="#468585"
                         android:textSize="13sp"
+                        android:inputType="textEmailAddress"
                         android:background="@drawable/edit_text_background"
                         android:layout_height="wrap_content"
                         android:layout_width="match_parent"

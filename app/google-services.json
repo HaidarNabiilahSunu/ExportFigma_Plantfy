@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "736837094335",
+    "project_id": "fir-appplantfy",
+    "storage_bucket": "fir-appplantfy.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:736837094335:android:305c4e3f3dc1d831596f0a",
+        "android_client_info": {
+          "package_name": "com.haidarnabiilahsunu.exportfigma_plantfy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "736837094335-lopp1147en7aq4sfar1glnq7i6h41105.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.haidarnabiilahsunu.exportfigma_plantfy",
+            "certificate_hash": "504fa95286acca8f613f4e78eaf12c7938887ef7"
+          }
+        },
+        {
+          "client_id": "736837094335-aptooac8eki945lda4r0f419t76nf1hr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbLJtLFU-BTORueYATdRCnmJvrQl0E4as"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "736837094335-aptooac8eki945lda4r0f419t76nf1hr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
