@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Page_Selling">
+
+    <!-- Root LinearLayout -->
+    <LinearLayout
+        android:background="@color/surfaceContainerLowest"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- ScrollView for content -->
+        <LinearLayout
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:id="@+id/r1ap8bc0igwh"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:background="#DEF9C4"
+            android:paddingTop="36dp"
+            android:paddingHorizontal="35dp">
+
+            <!-- Main LinearLayout Inside ScrollView -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <!-- Header Section -->
+                <LinearLayout
+                    android:id="@+id/rqr9o7lshi2l"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/rtsalamhn2ef"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginEnd="32dp"
+                        android:src="@drawable/arrow"
+                        android:scaleType="fitXY" />
+
+                    <TextView
+                        android:id="@+id/rhqoh6itg62e"
+                        android:textColor="#468585"
+                        android:textSize="@dimen/fontsize_headline_small"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:layout_width="wrap_content"
+                        android:text="Product Submission" />
+
+                    <LinearLayout
+                        android:id="@+id/ru9ky0skjnzn"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/rtsalamhn92ef"
+                        android:layout_width="26dp"
+                        android:layout_height="26dp"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginEnd="1dp"
+                        android:src="@drawable/menu"
+                        android:scaleType="fitXY" />
+
+                </LinearLayout>
+
+                <!-- Product List Card -->
+                <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="12dp">
+
+                    <TextView
+                        android:id="@+id/tvJudul"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="My Product List"
+                        android:textSize="24sp"
+                        android:textColor="#6B6B6B"
+                        android:textStyle="bold|italic" />
+
+                    <!-- List Card Item -->
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rvMenu"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginBottom="14dp"
+                        android:layout_marginTop="8dp" />
+
+                    <!-- Button Add Product -->
+                    <Button
+                        android:id="@+id/btnAddMenu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#468585"
+                        android:text="Add New Product" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

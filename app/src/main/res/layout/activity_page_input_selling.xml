@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Page_InputSelling">
+
+    <!-- Layout untuk edit / hapus produk dalam ScrollView -->
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#DEF9C4"
+        android:padding="16dp">
+
+        <!-- Layout input data produk dalam bentuk LinearLayout vertikal -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#DEF9C4"
+            android:padding="16dp">
+
+            <!-- Input nama produk -->
+            <EditText
+                android:id="@+id/etNamaMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="Product Name" />
+
+            <!-- Input harga produk -->
+            <EditText
+                android:id="@+id/etHargaMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="Product Price"
+                android:inputType="number" />
+
+            <!-- Input deskripsi produk -->
+            <EditText
+                android:id="@+id/etDeskripsiMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="Product Description" />
+
+            <!-- Input URL gambar produk -->
+            <EditText
+                android:id="@+id/etGambar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="Picture Link" />
+
+            <!-- Pratinjau gambar dari URL -->
+            <ImageView
+                android:id="@+id/imgPreview"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="14dp"
+                android:layout_marginTop="14dp"
+                android:src="@drawable/ic_launcher_background" />
+
+            <!-- Tombol untuk menyimpan data produk -->
+            <Button
+                android:id="@+id/btnSimpanMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#50B498"
+                android:text="Save Product" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

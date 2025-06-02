@@ -15,6 +15,13 @@ class Page_Setting : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_page_setting)
 
+        // Move to Page Selling
+        val textSelling = findViewById<TextView>(R.id.r5u6oq1i1w06)
+        textSelling.setOnClickListener{
+            val intent = Intent(this, Page_Selling::class.java)
+            startActivity(intent)
+        }
+
         // Move Back to Previous Page
         val textPrevious = findViewById<ImageView>(R.id.rtsalamhn2ef)
         textPrevious.setOnClickListener {

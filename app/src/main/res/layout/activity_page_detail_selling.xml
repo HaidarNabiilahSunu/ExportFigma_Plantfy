@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout utama menggunakan ConstraintLayout -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Page_DetailSelling">
+
+    <!-- ScrollView agar konten bisa digulir jika melebihi layar -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="24dp"
+        android:background="#DEF9C4">
+
+        <!-- LinearLayout vertikal untuk menampung isi detail produk -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Gambar produk -->
+            <ImageView
+                android:id="@+id/imgPreview"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:background="@drawable/cr10b729913"
+                android:contentDescription="Preview Gambar" />
+
+            <!-- Nama produk -->
+            <TextView
+                android:id="@+id/tvNamaMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama Menu"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:layout_marginTop="16dp"
+                android:textColor="#000000" />
+
+            <!-- Harga produk -->
+            <TextView
+                android:id="@+id/tvHargaMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rp 0"
+                android:textSize="18sp"
+                android:textColor="#E91E63"
+                android:layout_marginTop="8dp" />
+
+            <!-- Deskripsi produk -->
+            <TextView
+                android:id="@+id/tvDeskripsiMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Deskripsi menu akan muncul di sini ..."
+                android:textSize="16sp"
+                android:textColor="#666"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="12dp" />
+
+            <!-- Baris tombol aksi -->
+            <LinearLayout
+                android:id="@+id/rqr9o7lshi2l"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <!-- Tombol kembali ke daftar -->
+                <Button
+                    android:id="@+id/btnBack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#FF4444"
+                    android:layout_marginEnd="32dp"
+                    android:text="Back to List" />
+
+                <!-- Tombol edit produk -->
+                <Button
+                    android:id="@+id/btnList"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#468585"
+                    android:text="Edit this Product" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

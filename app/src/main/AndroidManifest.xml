@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -12,6 +14,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ExportFigma_Plantfy"
         tools:targetApi="31">
+        <activity
+            android:name=".Page_DetailSelling"
+            android:exported="false" />
+        <activity
+            android:name=".Page_InputSelling"
+            android:exported="false" />
+        <activity
+            android:name=".Page_EditSelling"
+            android:exported="false" />
+        <activity
+            android:name=".Page_Selling"
+            android:exported="false" />
         <activity
             android:name=".Page_SignInActivity"
             android:exported="false" />

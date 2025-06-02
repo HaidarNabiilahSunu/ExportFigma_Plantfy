@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout item produk horizontal yang lebih modern dan informatif -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="14dp"
+    android:layout_marginBottom="7dp"
+    android:background="@drawable/cr50b3869123"
+    android:elevation="2dp"
+    android:layout_margin="8dp">
+
+    <ImageView
+        android:id="@+id/imageProduct"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginEnd="0dp"
+        android:scaleType="centerCrop"
+        android:background="@drawable/cr50b6296184"
+        android:contentDescription="Product Image"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/ic_launcher_foreground" />
+
+    <!-- Kontainer info produk -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="@drawable/cr5bffffff"
+        android:padding="6dp">
+
+        <!-- Nama Produk -->
+        <TextView
+            android:id="@+id/textProductName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Produk"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#212121" />
+
+        <!-- Harga Produk -->
+        <TextView
+            android:id="@+id/textProductPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rp 0"
+            android:textColor="#E91E63"
+            android:textSize="15sp"
+            android:paddingTop="2dp" />
+
+        <!-- Deskripsi Singkat -->
+        <TextView
+            android:id="@+id/textProductDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:paddingTop="2dp"
+            android:text="Deskripsi singkat produk ini akan tampil di sini."
+            android:textColor="#777777"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

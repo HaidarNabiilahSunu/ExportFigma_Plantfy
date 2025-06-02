@@ -1,0 +1,13 @@
+<!-- res/drawable/bg_item_card.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid
+        android:color="#50B498"
+        />
+    <corners
+        android:radius="12dp"
+        />
+    <elevation
+        android:shadowColor="#33000000"
+        />
+</shape>
